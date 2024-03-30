@@ -1,0 +1,20 @@
+﻿The Last Days Server Panel
+1.0.0
+
+winexe
+C#
+.cs
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\
+The_Last_Days_Server_Panel
+none
+false
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+D:\Visual-Studio\The Last Days Server Panel\App.xaml
+31513097013
+1-633413567
+8-662739160
+208-1843952541
+Controls\LogItem.xaml;Controls\PlayerItem.xaml;MainWindow.xaml;
+
+False
+

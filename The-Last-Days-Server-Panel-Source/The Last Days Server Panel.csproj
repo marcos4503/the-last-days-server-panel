@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>The_Last_Days_Server_Panel</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <ApplicationIcon>Resources\icon-32px.ico</ApplicationIcon>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\7zip.zip" />
+    <None Remove="Resources\command-mode.png" />
+    <None Remove="Resources\command-picker-icon.png" />
+    <None Remove="Resources\github.png" />
+    <None Remove="Resources\icon-128px.png" />
+    <None Remove="Resources\icon-256px.png" />
+    <None Remove="Resources\icon-32px.png" />
+    <None Remove="Resources\icon-64px.png" />
+    <None Remove="Resources\lock-icon.png" />
+    <None Remove="Resources\player-skin.png" />
+    <None Remove="Resources\running-server.gif" />
+    <None Remove="Resources\say-mode.png" />
+    <None Remove="Resources\the-last-days-logo.png" />
+    <None Remove="Resources\unlock-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\icon-32px.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\EmbeddedResources\7zip.zip" />
+    <PackageReference Include="CoroutinesForWpf" Version="0.3.0" />
+    <PackageReference Include="DotNetZip" Version="1.16.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="8.0.0" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+    <Resource Include="Resources\command-mode.png" />
+    <Resource Include="Resources\command-picker-icon.png" />
+    <Resource Include="Resources\github.png" />
+    <Resource Include="Resources\icon-128px.png" />
+    <Resource Include="Resources\icon-256px.png" />
+    <Resource Include="Resources\icon-32px.png" />
+    <Resource Include="Resources\icon-64px.png" />
+    <Resource Include="Resources\lock-icon.png" />
+    <Resource Include="Resources\player-skin.png" />
+    <Resource Include="Resources\running-server.gif" />
+    <Resource Include="Resources\say-mode.png" />
+    <Resource Include="Resources\the-last-days-logo.png" />
+    <Resource Include="Resources\unlock-icon.png" />
+  </ItemGroup>
+
+</Project>

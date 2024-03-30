@@ -1,0 +1,2 @@
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\publish\win-x64\The Last Days Server Panel.pdb
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\publish\win-x64\The Last Days Server Panel.exe

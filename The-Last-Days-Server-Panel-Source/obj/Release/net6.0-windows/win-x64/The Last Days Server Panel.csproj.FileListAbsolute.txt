@@ -1,0 +1,35 @@
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\The Last Days Server Panel.exe
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\The Last Days Server Panel.deps.json
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\The Last Days Server Panel.runtimeconfig.json
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\The Last Days Server Panel.dll
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\The Last Days Server Panel.pdb
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.csproj.AssemblyReference.cache
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\MainWindow.g.cs
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\App.g.cs
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel_Content.g.cs
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel_MarkupCompile.cache
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel_MarkupCompile.lref
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\MainWindow.baml
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.g.resources
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.AssemblyInfoInputs.cache
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.AssemblyInfo.cs
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.csproj.CoreCompileInputs.cache
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.dll
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\refint\The Last Days Server Panel.dll
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.pdb
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.genruntimeconfig.cache
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\ref\The Last Days Server Panel.dll
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\DotNetZip.dll
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\Newtonsoft.Json.dll
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.csproj.CopyComplete
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\Controls\LogItem.g.cs
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\Controls\LogItem.baml
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\WpfAnimatedGif.dll
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\CoroutinesDotNet.Wpf.dll
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\CoroutinesDotNet.dll
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\Controls\PlayerItem.g.cs
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\Controls\PlayerItem.baml
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\System.Configuration.ConfigurationManager.dll
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\System.Diagnostics.PerformanceCounter.dll
+D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\System.Security.Cryptography.ProtectedData.dll
