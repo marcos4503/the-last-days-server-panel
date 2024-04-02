@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual-Studio\\The Last Days Server Panel\\The Last Days Server Panel.csproj": {}
+    "D:\\!GitHub-Repo\\the-last-days-server-panel\\The-Last-Days-Server-Panel-Source\\The Last Days Server Panel.csproj": {}
   },
   "projects": {
-    "D:\\Visual-Studio\\The Last Days Server Panel\\The Last Days Server Panel.csproj": {
+    "D:\\!GitHub-Repo\\the-last-days-server-panel\\The-Last-Days-Server-Panel-Source\\The Last Days Server Panel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual-Studio\\The Last Days Server Panel\\The Last Days Server Panel.csproj",
+        "projectUniqueName": "D:\\!GitHub-Repo\\the-last-days-server-panel\\The-Last-Days-Server-Panel-Source\\The Last Days Server Panel.csproj",
         "projectName": "The Last Days Server Panel",
-        "projectPath": "D:\\Visual-Studio\\The Last Days Server Panel\\The Last Days Server Panel.csproj",
+        "projectPath": "D:\\!GitHub-Repo\\the-last-days-server-panel\\The-Last-Days-Server-Panel-Source\\The Last Days Server Panel.csproj",
         "packagesPath": "C:\\Users\\junio\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual-Studio\\The Last Days Server Panel\\obj\\",
+        "outputPath": "D:\\!GitHub-Repo\\the-last-days-server-panel\\The-Last-Days-Server-Panel-Source\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},

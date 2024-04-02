@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GwT85QccbEygcKYUILgWYaXmhHtcEVqXQGvns/YhuC/KN8li0w7TEODE32mZBRVhHyiqrhNOo5cfyeq9rGEPiA==",
+  "dgSpecHash": "2jFMnX2J20sfF7UylAbxRKYQ0itWoPQUVGOoM9jP/rbbau3qlVeABgFQRqqMtCPKl+3XjVLBx2GzBuf9QQJbsg==",
   "success": true,
-  "projectFilePath": "D:\\Visual-Studio\\The Last Days Server Panel\\The Last Days Server Panel.csproj",
+  "projectFilePath": "D:\\!GitHub-Repo\\the-last-days-server-panel\\The-Last-Days-Server-Panel-Source\\The Last Days Server Panel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\junio\\.nuget\\packages\\coroutinesforwpf\\0.3.0\\coroutinesforwpf.0.3.0.nupkg.sha512",
     "C:\\Users\\junio\\.nuget\\packages\\dotnetzip\\1.16.0\\dotnetzip.1.16.0.nupkg.sha512",
