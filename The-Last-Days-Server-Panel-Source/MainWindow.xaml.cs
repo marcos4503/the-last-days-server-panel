@@ -1140,6 +1140,25 @@ namespace The_Last_Days_Server_Panel
             gameRuleRoot_SetFalseMobGriefing.Click += (s, e) => { commandInput.Text = "gamerule mobGriefing false"; };
             gameRule_MobGriefing.Items.Add(gameRuleRoot_SetFalseMobGriefing);
 
+            MenuItem gameRule_disableRaids = new MenuItem();
+            gameRule_disableRaids.Header = "disableRaids";
+            gameRuleRoot.Items.Add(gameRule_disableRaids);
+
+            MenuItem gameRuleRoot_SeeDisableRaid = new MenuItem();
+            gameRuleRoot_SeeDisableRaid.Header = "Ver-> disableRaids";
+            gameRuleRoot_SeeDisableRaid.Click += (s, e) => { commandInput.Text = "gamerule disableRaids"; };
+            gameRule_disableRaids.Items.Add(gameRuleRoot_SeeDisableRaid);
+
+            MenuItem gameRuleRoot_SetTrueDisableRaid = new MenuItem();
+            gameRuleRoot_SetTrueDisableRaid.Header = "Ativar-> disableRaids";
+            gameRuleRoot_SetTrueDisableRaid.Click += (s, e) => { commandInput.Text = "gamerule disableRaids true"; };
+            gameRule_disableRaids.Items.Add(gameRuleRoot_SetTrueDisableRaid);
+
+            MenuItem gameRuleRoot_SetFalseDisableRaid = new MenuItem();
+            gameRuleRoot_SetFalseDisableRaid.Header = "Desativar-> disableRaids";
+            gameRuleRoot_SetFalseDisableRaid.Click += (s, e) => { commandInput.Text = "gamerule disableRaids false"; };
+            gameRule_disableRaids.Items.Add(gameRuleRoot_SetFalseDisableRaid);
+
             //================== Pre-Generator: START ==================//
 
             MenuItem preGeneratorRoot = new MenuItem();

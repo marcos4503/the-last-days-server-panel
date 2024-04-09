@@ -78,7 +78,7 @@ namespace The_Last_Days_Server_Panel.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/The Last Days Server Panel;V1.0.0;component/controls/logitem.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/The Last Days Server Panel;V1.1.0;component/controls/logitem.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\LogItem.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
