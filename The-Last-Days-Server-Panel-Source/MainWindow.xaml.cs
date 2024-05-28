@@ -1140,6 +1140,25 @@ namespace The_Last_Days_Server_Panel
             gameRuleRoot_SetFalseMobGriefing.Click += (s, e) => { commandInput.Text = "gamerule mobGriefing false"; };
             gameRule_MobGriefing.Items.Add(gameRuleRoot_SetFalseMobGriefing);
 
+            MenuItem gameRule_xpToKeep = new MenuItem();
+            gameRule_xpToKeep.Header = "xpToKeepOnDeath";
+            gameRuleRoot.Items.Add(gameRule_xpToKeep);
+
+            MenuItem gameRuleRoot_SeeXpToKeepCurrentPercent = new MenuItem();
+            gameRuleRoot_SeeXpToKeepCurrentPercent.Header = "Ver-> Porcentagem de XP Mantida Atualmente";
+            gameRuleRoot_SeeXpToKeepCurrentPercent.Click += (s, e) => { commandInput.Text = "keepxppercentage show"; MessageBox.Show("O Log de Feedback deste comando não é visível no Painel do Servidor, somente no Client, mas mesmo se executado no Servidor, ele funcionará normalmente.", "Aviso", MessageBoxButton.OK); };
+            gameRule_xpToKeep.Items.Add(gameRuleRoot_SeeXpToKeepCurrentPercent);
+
+            MenuItem gameRuleRoot_SetXpToKeep25Percent = new MenuItem();
+            gameRuleRoot_SetXpToKeep25Percent.Header = "Definir-> Porcentagem de 25% de XP Mantida Ao Morrer";
+            gameRuleRoot_SetXpToKeep25Percent.Click += (s, e) => { commandInput.Text = "keepxppercentage set 25"; MessageBox.Show("O Log de Feedback deste comando não é visível no Painel do Servidor, somente no Client, mas mesmo se executado no Servidor, ele funcionará normalmente.", "Aviso", MessageBoxButton.OK); };
+            gameRule_xpToKeep.Items.Add(gameRuleRoot_SetXpToKeep25Percent);
+
+            MenuItem gameRuleRoot_SetXpToKeep50Percent = new MenuItem();
+            gameRuleRoot_SetXpToKeep50Percent.Header = "Definir-> Porcentagem de 50% de XP Mantida Ao Morrer";
+            gameRuleRoot_SetXpToKeep50Percent.Click += (s, e) => { commandInput.Text = "keepxppercentage set 50"; MessageBox.Show("O Log de Feedback deste comando não é visível no Painel do Servidor, somente no Client, mas mesmo se executado no Servidor, ele funcionará normalmente.", "Aviso", MessageBoxButton.OK); };
+            gameRule_xpToKeep.Items.Add(gameRuleRoot_SetXpToKeep50Percent);
+
             MenuItem gameRule_disableRaids = new MenuItem();
             gameRule_disableRaids.Header = "disableRaids";
             gameRuleRoot.Items.Add(gameRule_disableRaids);

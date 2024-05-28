@@ -15,7 +15,10 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Grid Height="24" Width="24">
-                    <Image x:Name="playerHead" Source="/Resources/player-skin.png" Margin="0,0,0,0"/>
+                    <Grid Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="22.2">
+                        <Image x:Name="playerHead" Source="/Resources/player-skin.png" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="20" Width="20"/>
+                        <Image x:Name="playerHeadLayer" Source="/Resources/player-skin.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0" Stretch="Fill"/>
+                    </Grid>
                 </Grid>
                 <Grid VerticalAlignment="Center" Margin="0,0,0,0" Grid.Column="2" IsHitTestVisible="False" HorizontalAlignment="Left">
                     <TextBlock x:Name="playerNick" TextWrapping="Wrap" Text="Player" VerticalAlignment="Center" HorizontalAlignment="Left" IsHitTestVisible="False"/>

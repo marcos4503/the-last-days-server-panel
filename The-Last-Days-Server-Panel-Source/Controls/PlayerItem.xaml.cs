@@ -192,13 +192,16 @@ namespace The_Last_Days_Server_Panel.Controls
             bitmapImage.EndInit();
 
             //Extract the head of the image
-            CroppedBitmap croppedBitmap = new CroppedBitmap(bitmapImage, new Int32Rect(8, 8, 8, 8));
+            CroppedBitmap croppedBitmapOfHead = new CroppedBitmap(bitmapImage, new Int32Rect(8, 8, 8, 8));
+            CroppedBitmap croppedBitmapOfHeadLayer = new CroppedBitmap(bitmapImage, new Int32Rect(39, 7, 10, 9));
 
             //Render the skin bitmap
-            playerHead.Source = croppedBitmap;
+            playerHead.Source = croppedBitmapOfHead;
+            playerHeadLayer.Source = croppedBitmapOfHeadLayer;
 
             //Change the render mod of the image, to not use image filtering, like minecraft
             RenderOptions.SetBitmapScalingMode(playerHead, BitmapScalingMode.NearestNeighbor);
+            RenderOptions.SetBitmapScalingMode(playerHeadLayer, BitmapScalingMode.NearestNeighbor);
         }
     }
 }
