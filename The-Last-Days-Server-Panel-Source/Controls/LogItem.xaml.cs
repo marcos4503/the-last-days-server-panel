@@ -65,7 +65,7 @@ namespace The_Last_Days_Server_Panel.Controls
                 if (parts[0].Contains("[") == true && parts[0].Contains("]") == true)
                     this.time.Text = parts[0];
                 if (parts[0].Contains("[") == false || parts[0].Contains("]") == false)
-                    this.time.Text = "Sem Tempo";
+                    this.time.Text = "[--:--:--]";
                 this.message.Text = parts[1];
             }
 
@@ -73,7 +73,7 @@ namespace The_Last_Days_Server_Panel.Controls
             if (parts[0].Length != 10 || parts.Length != 2)
             {
                 //Render the data
-                this.time.Text = "Sem Tempo";
+                this.time.Text = "[--:--:--]";
                 StringBuilder stringBuilder = new StringBuilder();
                 foreach (string item in parts)
                     stringBuilder.Append(item);

@@ -1447,6 +1447,7 @@ namespace The_Last_Days_Server_Panel
                 {
                     stats_runningTimerHours += 1;
                     stats_runningTimerSeconds = 0;
+                    stats_runningTimerMinutes = 0;
                 }
 
                 //Build the time string
