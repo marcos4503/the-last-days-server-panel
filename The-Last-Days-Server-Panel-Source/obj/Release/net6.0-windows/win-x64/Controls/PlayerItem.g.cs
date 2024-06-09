@@ -86,7 +86,7 @@ namespace The_Last_Days_Server_Panel.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/The Last Days Server Panel;V1.2.1;component/controls/playeritem.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/The Last Days Server Panel;V1.2.2;component/controls/playeritem.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Controls\PlayerItem.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

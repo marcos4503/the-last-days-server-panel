@@ -13,7 +13,7 @@
                     <ColumnDefinition Width="70"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <TextBlock x:Name="time" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF7F7F7F" IsHitTestVisible="False" FontFamily="Consolas" Margin="0,1,0,0"/>
+                <TextBlock x:Name="time" TextWrapping="Wrap" Text="[00:00:00]" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF7F7F7F" IsHitTestVisible="False" FontFamily="Consolas" Margin="0,1.5,0,0"/>
                 <Grid VerticalAlignment="Top" Margin="0,0,0,0" Grid.Column="1" IsHitTestVisible="False">
                     <TextBlock x:Name="message" TextWrapping="Wrap" Text="Message" VerticalAlignment="Top" HorizontalAlignment="Left" IsHitTestVisible="False"/>
                 </Grid>
