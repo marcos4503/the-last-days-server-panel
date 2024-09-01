@@ -34,15 +34,21 @@ If Server Panel notifies you that there is an update to your server files, I hig
 
 <b>3.</b> Open the "ServerData" folder which should be next to The Last Days Server Panel executable. Delete the following files or folders from within the "ServerData" folder. But do this with "The Last Days Server Panel" closed.
 - config
+- customadvancements
 - defaultconfigs
 - libraries
+- mod_data
 - mods
+- scripts
 
 <b>4.</b> Go back to the ZIP file you opened earlier and extract the following files or folders from within the ZIP into the "ServerData" folder.
 - config
+- customadvancements
 - defaultconfigs
 - libraries
+- mod_data
 - mods
+- scripts
 
 (To make sure you're doing everything right, Windows should not display the "file replace" warning!)
 
@@ -54,12 +60,12 @@ You need to fulfill some requirements to be able to use this Software or run the
 
 - The computer may need to have <a href="https://download.visualstudio.microsoft.com/download/pr/81531ad6-afa9-4b61-9d05-6a76dce81123/2885d26c1a58f37176fd7859f8cc80f1/dotnet-sdk-6.0.417-win-x64.exe" target="_blank">.Net 6.0</a> installed in order to run the Software.
 - The computer must be 64-bit.
-- Your computer's operating system must be Windows 10 or newer.
+- Your computer operating system must be Windows 10 or newer.
 - Your computer must have at least 50GB free on drive C.
 
 # Minimum Hardware requirements to run the Modpack Server
 
-- 12 Thread CPU (like "Intel i5 11400" or "AMD Ryzen 5 5600") or better.
+- 12 Threads CPU (like "Intel i5 11400" or "AMD Ryzen 5 5600") or better.
 - 32GB of RAM DDR4 or better.
 - NVMe SSD is highly recommended. (Run the Server Panel in a SSD drive!)
 
