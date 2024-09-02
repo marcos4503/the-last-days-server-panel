@@ -38,6 +38,7 @@ If Server Panel notifies you that there is an update to your server files, I hig
 - defaultconfigs
 - libraries
 - mod_data
+- mod_for_patch
 - mods
 - scripts
 
@@ -47,6 +48,7 @@ If Server Panel notifies you that there is an update to your server files, I hig
 - defaultconfigs
 - libraries
 - mod_data
+- mod_for_patch
 - mods
 - scripts
 
