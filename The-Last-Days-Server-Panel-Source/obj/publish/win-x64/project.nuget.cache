@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GcA5Y6PYWu1aVtCQ61EBrb4iI9o1u57/RqrcR8KtjXdQiOXP7oduOcc0dwUFeA29CV1xeJyxLJQvwkEVvMLEeg==",
+  "dgSpecHash": "+XbvRoH2fdc=",
   "success": true,
   "projectFilePath": "D:\\Visual-Studio\\The Last Days Server Panel\\The Last Days Server Panel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\junio\\.nuget\\packages\\coroutinesforwpf\\0.3.0\\coroutinesforwpf.0.3.0.nupkg.sha512",
     "C:\\Users\\junio\\.nuget\\packages\\dotnetzip\\1.16.0\\dotnetzip.1.16.0.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\junio\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Users\\junio\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.1\\microsoft.netcore.platforms.3.1.1.nupkg.sha512",
     "C:\\Users\\junio\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\junio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
@@ -20,5 +22,28 @@
     "C:\\Users\\junio\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\junio\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'DotNetZip' 1.16.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-xhg6-9j5j-w4vf",
+      "libraryId": "DotNetZip",
+      "targetGraphs": [
+        "net6.0-windows7.0",
+        "net6.0-windows7.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'System.Drawing.Common' 4.7.0 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net6.0-windows7.0",
+        "net6.0-windows7.0/win-x64"
+      ]
+    }
+  ]
 }

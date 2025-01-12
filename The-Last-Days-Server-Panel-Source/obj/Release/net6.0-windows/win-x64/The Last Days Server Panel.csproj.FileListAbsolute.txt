@@ -22,7 +22,6 @@ D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\T
 D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\ref\The Last Days Server Panel.dll
 D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\DotNetZip.dll
 D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\Newtonsoft.Json.dll
-D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last Days Server Panel.csproj.CopyComplete
 D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\Controls\LogItem.g.cs
 D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\Controls\LogItem.baml
 D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\WpfAnimatedGif.dll
@@ -33,3 +32,4 @@ D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\C
 D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\System.Configuration.ConfigurationManager.dll
 D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\System.Diagnostics.PerformanceCounter.dll
 D:\Visual-Studio\The Last Days Server Panel\bin\Release\net6.0-windows\win-x64\System.Security.Cryptography.ProtectedData.dll
+D:\Visual-Studio\The Last Days Server Panel\obj\Release\net6.0-windows\win-x64\The Last.19D85577.Up2Date

@@ -1,5 +1,5 @@
 ﻿The Last Days Server Panel
-1.2.2
+1.2.4
 
 winexe
 C#
@@ -13,8 +13,8 @@ D:\Visual-Studio\The Last Days Server Panel\App.xaml
 31513097013
 1-633413567
 10-186261189
-208-1843952541
+208-2043310569
 Controls\LogItem.xaml;Controls\PlayerItem.xaml;MainWindow.xaml;
 
-False
+True
 

@@ -819,6 +819,9 @@ namespace The_Last_Days_Server_Panel
                 //Disable the statistics
                 statsContent.Visibility = Visibility.Collapsed;
 
+                //Process post stop tasks
+                ProcessPostShutdownTasks();
+
                 //Inform that the server is not running
                 isRunningServer = false;
             }
@@ -1203,6 +1206,16 @@ namespace The_Last_Days_Server_Panel
             preGeneratorRoot_Generate400Chunks.Header = "Pre-Gerar-> Raio de 6400 Blocos a Partir do Spawn (Usar depois da opção acima!)";
             preGeneratorRoot_Generate400Chunks.Click += (s, e) => { commandInput.Text = "pregen start gen radius Gerar400Chunks SQUARE 0 0 400 minecraft:overworld NORMAL_GEN"; };
             preGeneratorRoot.Items.Add(preGeneratorRoot_Generate400Chunks);
+
+            MenuItem preGeneratorRoot_Generate470Chunks = new MenuItem();
+            preGeneratorRoot_Generate470Chunks.Header = "Pre-Gerar-> Raio de 7500 Blocos a Partir do Spawn (Usar depois da opção acima!)";
+            preGeneratorRoot_Generate470Chunks.Click += (s, e) => { commandInput.Text = "pregen start gen radius Gerar470Chunks SQUARE 0 0 470 minecraft:overworld NORMAL_GEN"; };
+            preGeneratorRoot.Items.Add(preGeneratorRoot_Generate470Chunks);
+
+            MenuItem preGeneratorRoot_Generate560Chunks = new MenuItem();
+            preGeneratorRoot_Generate560Chunks.Header = "Pre-Gerar-> Raio de 9000 Blocos a Partir do Spawn (Usar depois da opção acima!)";
+            preGeneratorRoot_Generate560Chunks.Click += (s, e) => { commandInput.Text = "pregen start gen radius Gerar560Chunks SQUARE 0 0 560 minecraft:overworld NORMAL_GEN"; };
+            preGeneratorRoot.Items.Add(preGeneratorRoot_Generate560Chunks);
 
             MenuItem preGeneratorRoot_ListTasks = new MenuItem();
             preGeneratorRoot_ListTasks.Header = "Tarefas-> Listar";
@@ -1784,6 +1797,16 @@ namespace The_Last_Days_Server_Panel
                 stats_serverCpuMonitorCounter.Dispose();
             }
             stats_serverCpuMonitorCounter = null;
+        }
+    
+        private void ProcessPostShutdownTasks()
+        {
+            //Delete the files that the server can be created on root of drive
+            string driveLetter = serverDataFolderPath.Split(":")[0];
+            if (Directory.Exists((driveLetter + @":\config")) == true)
+                Directory.Delete((driveLetter + @":\config"), true);
+            if (Directory.Exists((driveLetter + @":\fancymenu_data")) == true)
+                Directory.Delete((driveLetter + @":\fancymenu_data"), true);
         }
     }
 }

@@ -22,7 +22,6 @@ D:\Visual-Studio\The Last Days Server Panel\obj\Debug\net6.0-windows\ref\The Las
 D:\Visual-Studio\The Last Days Server Panel\obj\Debug\net6.0-windows\The Last Days Server Panel_Content.g.cs
 D:\Visual-Studio\The Last Days Server Panel\bin\Debug\net6.0-windows\DotNetZip.dll
 D:\Visual-Studio\The Last Days Server Panel\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
-D:\Visual-Studio\The Last Days Server Panel\obj\Debug\net6.0-windows\The Last Days Server Panel.csproj.CopyComplete
 D:\Visual-Studio\The Last Days Server Panel\obj\Debug\net6.0-windows\Controls\LogItem.g.cs
 D:\Visual-Studio\The Last Days Server Panel\obj\Debug\net6.0-windows\Controls\LogItem.baml
 D:\Visual-Studio\The Last Days Server Panel\bin\Debug\net6.0-windows\WpfAnimatedGif.dll
@@ -34,3 +33,4 @@ D:\Visual-Studio\The Last Days Server Panel\bin\Debug\net6.0-windows\System.Conf
 D:\Visual-Studio\The Last Days Server Panel\bin\Debug\net6.0-windows\System.Diagnostics.PerformanceCounter.dll
 D:\Visual-Studio\The Last Days Server Panel\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
 D:\Visual-Studio\The Last Days Server Panel\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Visual-Studio\The Last Days Server Panel\obj\Debug\net6.0-windows\The Last.19D85577.Up2Date
