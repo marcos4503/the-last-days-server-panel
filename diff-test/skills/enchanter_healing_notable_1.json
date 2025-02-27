@@ -1,0 +1,52 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.03,
+      "attribute": "skilltree:regeneration",
+      "id": "6ce878a4-c93f-c80f-a021-bf45b9af98e8",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "min": 0.75
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/enchanter_healing_notable_1a.png",
+  "id": "skilltree:enchanter_healing_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 54.295937,
+  "positionY": -94.80734,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Regeneração de Vida: +0.03 se Você tem no mínimo 75% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Regeneração de Vida regenera seus Pontos de Vida passivamente, 2 vezes por segundo)"
+    }
+  ]
+}

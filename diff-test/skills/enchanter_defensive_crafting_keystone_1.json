@@ -1,0 +1,105 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0031,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3be91",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/enchanter_defensive_crafting_keystone_1b.png",
+  "id": "skilltree:enchanter_defensive_crafting_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 247.14545,
+  "positionY": -250.03818,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a Habilidade 'Estrelas Cadentes - Lvl 10'. Te permite fabricar e portar o 'Chip de Comando' desta Habilidade!"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Estrelas Cadentes, faz com que os Gadgets disparem dezenas e dezenas de Dardos Quânticos, em uma devastadora bateria"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  de disparos, resultando num show similar a uma chuva de Estrelas Cadentes. Os Dardos são disparados numa área pequena"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  resultando em uma enorme quantidade de dano distribuída dentro dessa área para todas criaturas dentro dela."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "Nota: Para usar essa Habilidade, é obrigatório que você use um Dispositivo. Eles só são desbloqueáveis através das"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       Classes 'Diagramador e Programador', 'Alquimista e Médico' ou das Subclasses 'Desenvolvedor de Armas Biológicas'"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       e 'Amante de Robôs'. Sem uma dessas Classes ou Subclasses desbloqueada, essa habilidade não poderá ser usada."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Para usar esta Habilidade, fabrique e instale o 'Chip de Comando' dela, no seu Dispositivo, usando uma 'Mesa de Solda'!)"
+    }
+  ]
+}

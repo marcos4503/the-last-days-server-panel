@@ -1,0 +1,118 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0009,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3bed1",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [
+    "skilltree:miner_subclass_2_life_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_subclass_2_masterya.png",
+  "id": "skilltree:miner_subclass_2_mastery",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -319.95526,
+  "positionY": 349.7826,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a 'Trouxa'. A Trouxa te permite guardar itens do seu Inventário, dentro dela, o que te permite poupar"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "espaço de Inventário, resultando no fato de você poder carregar mais itens. A Trouxa tem 128 'Slots de Trouxa', resultando"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "num poder de armazenamento de até duas pilhas de tipos de itens. Itens que acumulam até 64, gastam 1 Slot de Trouxa. Itens"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "que acumulam até 16, gastam 4 Slots de Trouxa, e por fim, os itens que não se acumulam, gastam 64 Slots de Trouxa, cada."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Para colocar itens dentro de uma Trouxa, pegue a Trouxa no inventário (usando o Botão Direito) e clique com o Botão Direito"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  nos itens a serem colocados dentro da Trouxa. Você também pode pegar o item a ser colocado na Trouxa (usando o Botão Direito)"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  e clicar com o Botão Direito na Trouxa, para guardar o item dentro dela."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Para tirar itens da Trouxa, pegue a Trouxa no inventário (usando o Botão Direito) e clique com o Botão Direito em Slots"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  vazios, no seu inventário. Os últimos itens colocados na Trouxa são sempre os primeiros a sair."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Pegar uma Trouxa na mão principal e clicar com o Botão Direito para usa-la, fará com que todos os itens dentro da Trouxa"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  sejam jogados para fora, no mundo. A Trouxa fica vazia após isso."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Para verificar a receita de criação da Trouxa, consulte no seu Inventário."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:ignite",
+      "chance": 0.1,
+      "duration": 5,
+      "event_listener": {
+        "type": "skilltree:attack",
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:enchanter_subclass_1_offensive_1",
+    "skilltree:enchanter_subclass_1_crafting_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1.png",
+  "id": "skilltree:enchanter_subclass_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 345.35162,
+  "positionY": -31.994904,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Chance de Colocar Fogo nos Inimigos Por 5 Segundos: +10% ao contato"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Subclasse é ideal para Sobreviventes que desejam aumentar seu Dano Corpo-a-Corpo, além de também causarem Dano Ao Longo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "do Tempo em seus alvos, os incendiando e ganhando bônus de Dano e Crítico em alvos que estão queimando. Embora o incendiamento"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "de Zumbis normais e da maioria dos Mutantes não seja possível por causa de suas adaptações térmicas, o incendio de quaisquer"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "outras criaturas ainda é possível, podendo incendiar por exemplo, Humanos, Criaturas Pacíficas/Neutras e Assimilados, sendo uma"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "boa habilidade de enfrentamento a essas criaturas. Por fim, o incendiamento pode acontecer a partir de qualquer Dano que você"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "cause, como Dano Corpo-a-Corpo, por Flechas, Balas de Armas de Fogo, etc."
+    }
+  ]
+}

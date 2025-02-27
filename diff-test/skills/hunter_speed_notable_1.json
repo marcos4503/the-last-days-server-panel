@@ -1,0 +1,51 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.2,
+      "attribute": "puffish_attributes:protection_shred",
+      "id": "99f615fc-fee5-7c81-c8bf-578f791eded5",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/hunter_speed_notable_1a.png",
+  "id": "skilltree:hunter_speed_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 235.14684,
+  "positionY": 135.77867,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Penetração da Armadura Diagramada com Proteção: +20%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Penetração da Armadura Diagramada com Proteção, faz seu Dano ignorar uma porcentagem da proteção vinda da Diagramação 'Proteção I, II, III e IV')"
+    }
+  ]
+}

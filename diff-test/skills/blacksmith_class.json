@@ -1,0 +1,608 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health",
+      "id": "8646b228-a160-7f71-3599-80c394c27d7e",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.armor",
+      "id": "0f858cb4-12dc-0ea9-8f33-ef0310939960",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0004,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf00",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000401,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf01",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000402,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf02",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000403,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf03",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000404,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf04",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000405,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf05",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000406,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf06",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000407,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf07",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000408,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf08",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000409,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf09",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000410,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf0a",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000411,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf0b",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000412,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf0c",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000413,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf0d",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000414,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf0e",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000415,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf0f",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0005,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf10",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00051,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf11",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00052,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf12",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00053,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf13",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00054,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf14",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00091,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a8-7306-ca0c-a528-856ccef3bf15",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "ce9b99d7-9c27-1b26-4d20-15f6f73a19ca",
+      "name": "Skill",
+      "amount": 0.083,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "skilltree:blocking",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_classa.png",
+  "id": "skilltree:blacksmith_class",
+  "isStartingPoint": true,
+  "longConnections": [ ],
+  "oneWayConnections": [
+    "skilltree:blacksmith_defensive_1",
+    "skilltree:blacksmith_offensive_1",
+    "skilltree:blacksmith_defensive_crafting_1",
+    "skilltree:blacksmith_offensive_crafting_1",
+    "skilltree:blacksmith_crafting_1"
+  ],
+  "positionX": -131.631,
+  "positionY": -76.008415,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Vida Máxima: +2"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Pontos de Armadura: +1"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a 'Armadura de Diamante'. Um set completo de Armadura de Diamante fornece um total de 20 Pontos de Armadura, mais"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "8 Pontos de Resistência da Armadura. Somado a sua maior Durabilidade, a Armadura de Diamante é um acessório indispensável para"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "qualquer Sobrevivente que busque mais resistência."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a 'Armadura de Netherita'. Um set completo de Armadura de Netherita fornece um total de 20 Pontos de Armadura,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "mais um total de 12 Pontos de Resistência de Armadura. Somado a sua Durabilidade ainda maior, a Armadura de Netherita também"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "aumenta a sua Resistência a Repulsão, para cada peça vestida, além de aumentar sua Resistência ao Fogo. É a Armadura suprema"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "para qualquer Sobrevivente que busque uma resistência de respeito."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia os 'Escudos'. Os Escudos são uma das principais ferramentas dos Colossos. Quando na Mão Secundária, levantar"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "o Escudo segurando o 'Botão Direito' te permite bloquear 99% dos tipos de ataques que venham numa área de um ângulo de 90°"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "a sua frente. Logo após pressionar o 'Botão Direito', você já estará defendendo, sem delay. Ataques bloqueados pelo Escudo tem"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "seu Dano completamente negado, porém, caso o ataque fosse causar 3 de Dano ou mais, esse Dano é transferido para a Durabilidade"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "do Escudo. Caso um Projétil como Flecha seja bloqueado pelo Escudo, o Projétil ricocheteia para uma direção próxima a que você,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "está olhando, no momento. Caso o Projétil a ser defendido seja um Projétil Perfurante, então ele passará através do Escudo."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Caso seja um ataque Corpo-a-Corpo, a criatura atacante recebe Repulsão, ao ter seu ataque bloqueado por um Escudo. Caso seja uma"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Explosão, o Escudo bloqueará todo o Dano e reduzirá fortemente, o impacto da Explosão contra você. Os Escudos possuem um"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Tempo Máximo que podem ser mantidos levantados, e entram num breve Tempo de Recarga após serem abaixados. O único tipo de Escudo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "que não tem nenhuma limitação de tempo é o Escudo de Ouro. Por fim, os Escudos podem ter Estandartes fixados neles, permitindo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "customiza-los com cores, desenhos ou símbolos."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia os 'Tasers'. Os Tasers são uma arma perfeita para reduzir a mobilidade dos seus alvos. Os Tasers tem Durabilidade"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "infinita, um alcance efetivo de 12 Blocos e são Hitscan. Ao atirar num alvo clicando com o 'Botão Direito', o alvo receberá"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "uma Lentidão e um pouco de Dano. Se você tiver 'Pó de Redstone' em seu Inventário, torna-se possível ativar o modo Aprimorado"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "do Taser e segurando 'SHIFT' e clicando com o 'Botão Direito' do mouse, o Taser ficará vermelho indicando isso. Ao atirar num"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "alvo com o Taser Aprimorado, o alvo receberá um Dano maior, Lentidão ainda mais forte e Náusea. É uma ótima arma secundária pra"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "perseguir ou retardar alvos de maneira mais efetiva."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Classe é ideal para Sobreviventes que buscam uma altíssima resistência, em troca de um Dano muito baixo. Com o menor Dano, dentre"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "todas as outras Classes, essa Classe oferece a maior resistência e um kit completo para combate Corpo-a-Corpo a velha maneira, ou seja,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "com o bom e velho Escudo, uma arma comum, como uma Espada, Machado, Lança ou outra arma Corpo-a-Corpo e claro, uma boa Armadura. Essa é"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "a Classe perfeita se você quer ser uma referência de Resistência e enfrentar seus inimigos cara a cara, na brutalidade."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Depois de escolher uma Classe inicial e salvar, não é possível mudar para outra. A única maneira de redefinir sua Árvore de"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Habilidades, é encontrando e usando o 'Pergaminho da Amnésia'."
+    }
+  ]
+}

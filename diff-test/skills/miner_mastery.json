@@ -1,0 +1,86 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.000010,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3bed0",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/miner_masterya.png",
+  "id": "skilltree:miner_mastery",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -354.67056,
+  "positionY": 204.75749,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a Habilidade Especial de 'Minerador Arqueólogo'."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Essa Habilidade te permite analizar os minérios mais detalhadamente e sempre encontrar mais coisas além do minério"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  já esperado. Sempre que você quebrar um bloco de Minério de Diamante ou Minério de Esmeralda, você poderá encontrar"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  uma 'Sacola dos Mineradores Antigos' ou algum item de Arqueologia, como Óstracos. A 'Sacola dos Mineradores Antigos'"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  quando aberta, te garante um Loot igual a como se você tivesse aberto um Baú de Loot comum que pode ser encontrado"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  em diversos lugares no mundo. Essa habilidade não funciona se você quebrar um bloco de Mínerio, usando uma ferramenta"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  que tenha Diagramação de Toque Suave."
+    }
+  ]
+}

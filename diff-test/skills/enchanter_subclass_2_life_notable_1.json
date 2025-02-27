@@ -1,0 +1,51 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 2.7,
+      "attribute": "skilltree:exp_per_minute",
+      "id": "cf47b117-d6ec-55b4-060c-611f0793b9ae",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_life_notable_1.png",
+  "id": "skilltree:enchanter_subclass_2_life_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 325.9333,
+  "positionY": -307.06915,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Experiência Por Minuto: +2.7"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Experiência Por Minuto faz com que você ganhe uma quantia de Pontos de Experiência a cada 60 segundos da vida real)"
+    }
+  ]
+}

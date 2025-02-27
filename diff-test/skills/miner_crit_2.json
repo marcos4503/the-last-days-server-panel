@@ -1,0 +1,54 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "puffish_attributes:sprinting_speed",
+      "id": "ca2407fc-c68c-4db0-8214-ec1037be55ed",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:miner_crit_notable_1",
+    "skilltree:miner_offensive_6"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_crit_1a.png",
+  "id": "skilltree:miner_crit_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -271.67316,
+  "positionY": 124.51143,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Velocidade de Corrida: +5%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Velocidade de Corrida aumenta a sua Velocidade de Movimento apenas enquanto Corre)"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "amount": 0.015,
+      "chance": 1.0,
+      "event_listener": {
+        "type": "skilltree:attack",
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "attribute": "minecraft:generic.max_health",
+          "max": 20.0,
+          "type": "skilltree:attribute_value"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player"
+      }
+    },
+    {
+      "type": "skilltree:healing",
+      "amount": 0.00875,
+      "chance": 1.0,
+      "event_listener": {
+        "type": "skilltree:attack",
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "attribute": "minecraft:generic.max_health",
+          "min": 21.0,
+          "type": "skilltree:attribute_value"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:enchanter_offensive_crafting_3"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_healing_1.png",
+  "id": "skilltree:hunter_healing_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 183.63277,
+  "positionY": -18.7629,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Recupera 0.015 de Vida ao contato se Você tiver no máximo 20 de Vida máxima"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Recupera 0.00875 de Vida ao contato se Você tiver no mínimo 21 de Vida máxima"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Recuperação de Vida Ao Contato recupera uma quantia fixa de Vida, ao causar Dano a uma criatura. Funciona em área também)"
+    }
+  ]
+}

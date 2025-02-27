@@ -1,0 +1,32 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.5,
+      "attribute": "puffish_attributes:knockback",
+      "id": "37001a58-aad1-dae8-76f6-cbf02ededf4f",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [
+    "skilltree:miner_subclass_1_offensive_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_masterya.png",
+  "id": "skilltree:miner_subclass_1_mastery",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -462.90488,
+  "positionY": 102.16851,
+  "tags": [ ]
+}

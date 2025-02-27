@@ -1,0 +1,54 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "43b8fda0-e7c8-5f59-5c86-22f29849c20c",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_lesser_3",
+    "skilltree:blacksmith_lesser_6"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_lesser_1.png",
+  "id": "skilltree:blacksmith_lesser_5",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -302.69434,
+  "positionY": -174.78297,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Resistência à Repulsão: +10%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Resistência à Repulsão reduz a distância em que você é arremessado para trás, ao receber Dano de qualquer fonte)"
+    }
+  ]
+}

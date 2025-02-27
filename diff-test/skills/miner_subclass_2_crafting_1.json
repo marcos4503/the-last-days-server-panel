@@ -1,0 +1,49 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:food_saturation",
+        "multiplier": 0.05
+      },
+      "item_condition": {
+        "type": "skilltree:food"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:miner_subclass_2_crafting_2"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_subclass_2_crafting_1a.png",
+  "id": "skilltree:miner_subclass_2_crafting_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -216.40405,
+  "positionY": 310.7848,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Fabricação de Comida: Nutrição +5%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Nutrição aumenta a quantidade de Pontos de Nutrição que a comida que você fabrica, irá fornecer a quem consome)"
+    }
+  ]
+}

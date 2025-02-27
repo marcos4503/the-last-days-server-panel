@@ -1,0 +1,51 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:count",
+      "id": "2ef3ae9c-d10e-8519-2f8e-bd73986b2255",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/hunter_crafting_notable_1a.png",
+  "id": "skilltree:hunter_crafting_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 32.041756,
+  "positionY": 18.502047,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Carga Adicional de Cambalhota: +2"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Carga Adicional de Cambalhota controla quantas Cambalhotas você consegue deixar pré-carregadas, para serem usadas em sequência)"
+    }
+  ]
+}

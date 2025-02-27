@@ -1,0 +1,71 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.5,
+      "attribute": "puffish_attributes:knockback",
+      "id": "48001a58-aad1-dae8-76f6-cbf02ededf40",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_1_offensive_1",
+    "skilltree:blacksmith_subclass_1_crafting_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1.png",
+  "id": "skilltree:blacksmith_subclass_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -200.37517,
+  "positionY": -283.09222,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Repulsão Corpo-a-Corpo: +50%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Subclasse é ideal para Sobreviventes que buscam ampliar um pouco, suas capacidades de Dano. Com esta Subclasse você"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "poderá causar mais dano e também terá a habilidade de empurrar seus inimigos para mais longe a cada golpe. É uma boa"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Subclasse a escolher se você está indo para um caminho de maior resistência, e deseja mais um pouco de Dano e poder de"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "combate para equilibrar mais as coisas."
+    }
+  ]
+}

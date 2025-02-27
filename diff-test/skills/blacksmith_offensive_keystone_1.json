@@ -1,0 +1,55 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:blocking",
+      "id": "b9e71cca-db15-bcfa-043e-124932d74850",
+      "name": "Skill",
+      "amount": 0.2963,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "minecraft:generic.armor",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "attribute": "minecraft:generic.armor",
+        "min": 22.0,
+        "type": "skilltree:attribute_value"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_keystone_1.png",
+  "id": "skilltree:blacksmith_offensive_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -305.1351,
+  "positionY": -238.5485,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Bloqueio: +0.2963 a cada 1 ponto de armadura se Você tiver no mínimo 22 de Pontos de armadura"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Bloqueio aumenta a chance de você Bloquear um ataque, automaticamente negando o Dano desse ataque, enquanto tem um Escudo na mão secundária)"
+    }
+  ]
+}

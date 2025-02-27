@@ -1,0 +1,62 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "amount": 0.35,
+      "chance": 1.0,
+      "event_listener": {
+        "type": "skilltree:block",
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:food_level",
+          "min": 14
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/cook_healing_notable_1a.png",
+  "id": "skilltree:cook_healing_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -54.9606,
+  "positionY": -94.42358,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Recupera 0.35 de Vida ao bloquear se Você tem no mínimo 14 pontos de Nutrição"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Recuperação de Vida Ao Bloquear recupera uma quantia fixa de Vida, ao bloquear qualquer ataque com um Escudo)"
+    }
+  ]
+}

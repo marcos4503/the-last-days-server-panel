@@ -1,0 +1,44 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.04,
+      "loot_type": "mobs",
+      "multiplier": 1.0
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.01,
+      "loot_type": "mobs",
+      "multiplier": 2.0
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:hunter_crafting_2"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_crafting_1.png",
+  "id": "skilltree:hunter_crafting_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 104.7852,
+  "positionY": 60.5067,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Chance de obter o DOBRO de Loot de Mobs: +4%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Chance de obter o TRIPLO de Loot de Mobs: +1%"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:blocking",
+      "id": "3e55436c-9817-5a9e-7a4a-0fcb80ab3cb9",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_life_2",
+    "skilltree:blacksmith_offensive_5"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_1.png",
+  "id": "skilltree:blacksmith_offensive_4",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -185.62802,
+  "positionY": -169.54088,
+  "tags": [ ]
+}

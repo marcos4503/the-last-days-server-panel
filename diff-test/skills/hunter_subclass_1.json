@@ -1,0 +1,71 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:count",
+      "id": "2ef3ae9c-d10e-8519-2f8e-bd73986b2260",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 2,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:hunter_subclass_1_offensive_1",
+    "skilltree:hunter_subclass_1_crafting_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1.png",
+  "id": "skilltree:hunter_subclass_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 200.37805,
+  "positionY": 283.09222,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Carga Adicional de Cambalhota: O DOBRO"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Subclasse é ideal para Sobreviventes que desejam aumentar sua mobilidade e se especializar no combate Corpo-a-Corpo,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "usando Armas em uma mão, ou usando Armas nas duas mãos, ganhando bônus de Dano nesse caso. Além disso, você também irá se"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "aprimorar nas artes Ninja, podendo usar mais Cambalhotas, pular mais alto, ser menos notado por criaturas hostís e ainda"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "eviscerar seus inimigos, causando muito Dano de perto. É a melhor Subclasse se você busca mais Dano no mano a mano."
+    }
+  ]
+}

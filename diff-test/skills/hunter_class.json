@@ -1,0 +1,210 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:count",
+      "id": "2ef3ae9c-d10e-8519-2f8e-bd73986b2200",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "24d71a32-89d2-fe5a-28c5-7d7a5cf82c4b",
+      "name": "Skill",
+      "amount": 0.083,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "skilltree:blocking",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/hunter_class.png",
+  "id": "skilltree:hunter_class",
+  "isStartingPoint": true,
+  "longConnections": [ ],
+  "oneWayConnections": [
+    "skilltree:hunter_defensive_1",
+    "skilltree:hunter_offensive_1",
+    "skilltree:hunter_defensive_crafting_1",
+    "skilltree:hunter_offensive_crafting_1",
+    "skilltree:hunter_crafting_1"
+  ],
+  "positionX": 131.631,
+  "positionY": 76.008415,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano: +20%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a habilidade de 'Cambalhota'. A Cambalhota permite que você execute uma Cambalhota, avançando muito rapidamente"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "na direção em que você está caminhando no momento. Durante a acrobacia de Cambalhota, você também fica imune a qualquer tipo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "de dano, além disso, durante a acrobacia você também é capaz de passar por pequenos buracos sem cair neles, desde que sejam"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "menores que o percurso da Cambalhota. Para usar a Cambalhota, basta pressionar 'R'. Olhando para o canto inferior esquerdo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "da tela, você também poderá observar as suas Cargas restantes e o Tempo de Recarga da sua Cambalhota."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Classe é ideal para Sobreviventes que em troca de uma baixa resistência, desejam causar quantidades massivas de Dano"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "só com seus ataques básicos, ou seja, através de Armas Corpo-a-Corpo, Arcos, Bestas, Armas de Fogo, etc. Com esta Classe"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "você terá acesso a uma boa mobilidade, além de causar altas quantidades de dano com qualquer Arma, e até mesmo tendo a"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "chance de se especializar com um tipo de Arma ou estilo de combate. Por exemplo, você pode se especializar em combate a"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "longa distância, podendo reciclar Flechas e Munições, ou se especializar em combate pessoal corpo-a-corpo, podendo usar"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Armas Duplas e devastar seus inimigos de perto."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Esta Classe NÃO consegue usar nenhuma variante dos seguintes Itens Vanilla:"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "- Escudo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "- Armadura de Diamante"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "- Armadura de Netherita"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Depois de escolher uma Classe inicial e salvar, não é possível mudar para outra. A única maneira de redefinir sua Árvore de"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Habilidades, é encontrando e usando o 'Pergaminho da Amnésia'."
+    }
+  ]
+}
