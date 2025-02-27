@@ -1,0 +1,66 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 0.5,
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.45,
+      "attribute": "puffish_attributes:fall_reduction",
+      "id": "7962a1a7-1df2-ed7f-82aa-bf8dd8c6a12c",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:alchemist_crafting_notable_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/alchemist_crafting_1a.png",
+  "id": "skilltree:alchemist_crafting_3",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 1.0409498E-14,
+  "positionY": 67.0,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Altura do Pulo: +1"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Resistência a Quedas: +4"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Resistência a Quedas aumenta a quantidade mínima de blocos que você deve cair, para sofrer dano, durante uma Queda)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "type": "skilltree:underwater"
+      },
+      "multiplier": 0.125
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:miner_offensive_5"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_offensive_1a.png",
+  "id": "skilltree:miner_offensive_4",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -239.63829,
+  "positionY": 75.99579,
+  "tags": [ ]
+}

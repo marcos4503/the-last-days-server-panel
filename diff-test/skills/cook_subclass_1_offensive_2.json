@@ -1,0 +1,53 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.02,
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "f95e1eaf-4304-b8a9-46ff-4ec669301f63",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:cook_subclass_1_offensive_3"
+  ],
+  "iconTexture": "skilltree:textures/icons/cook_subclass_1_offensive_1.png",
+  "id": "skilltree:cook_subclass_1_offensive_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 128.9708,
+  "positionY": -368.78476,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Velocidade de Ataque: +2%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Velocidade de Ataque aumenta a cadência de golpes corpo-a-corpo e reduz o tempo de carga de Bestas e Arcos)"
+    }
+  ]
+}

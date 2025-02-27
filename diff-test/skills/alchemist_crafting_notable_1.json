@@ -1,0 +1,123 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0055,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3beaa",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/alchemist_crafting_notable_1a.png",
+  "id": "skilltree:alchemist_crafting_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 1.4083439E-14,
+  "positionY": 37.0,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a Habilidade 'Passo Congelado - Lvl 5'. Te permite fabricar e portar o 'Chip de Comando' desta Habilidade!"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- O Passo Congelado executa um comando para que seus Gadgets te movam super rapidamente para o bloco ao qual você está"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  mirando atualmente, numa distância de até 16 blocos. Após se mover, uma massa de ar congelado no seu formato, é deixado"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  para trás como um clone. Esse clone explode se receber dano de alguém, mas também explode automaticamente alguns"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  instantes depois. Ao explodir o clone lança vários fragmentos de gelo que causam dano em criaturas ao redor. Este"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  Comando também te permite se mover para blocos verticalmente se você olhar para um bloco que está acima de você,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  desde que o bloco alvo esteja no alcance deste Comando."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "Nota: Para usar essa Habilidade, é obrigatório que você use um Dispositivo. Eles só são desbloqueáveis através das"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       Classes 'Diagramador e Programador', 'Alquimista e Médico' ou das Subclasses 'Desenvolvedor de Armas Biológicas'"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       e 'Amante de Robôs'. Sem uma dessas Classes ou Subclasses desbloqueada, essa habilidade não poderá ser usada."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Para usar esta Habilidade, fabrique e instale o 'Chip de Comando' dela, no seu Dispositivo, usando uma 'Mesa de Solda'!)"
+    }
+  ]
+}

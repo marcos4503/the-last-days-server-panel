@@ -1,0 +1,49 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.5,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:hunter_subclass_special"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_1e.png",
+  "id": "skilltree:hunter_subclass_1_crafting_5",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 238.89299,
+  "positionY": 349.80698,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Recupera 0.5 de Vida ao matar uma criatura"
+    }
+  ]
+}

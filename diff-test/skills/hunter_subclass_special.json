@@ -1,0 +1,51 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.02,
+      "attribute": "puffish_attributes:life_steal",
+      "id": "b8fe9ce7-2715-f178-2365-0f07844e8a03",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_special_1.png",
+  "id": "skilltree:hunter_subclass_special",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 211.1812,
+  "positionY": 365.8061,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Roubo de Vida: +2%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(O Roubo de Vida converte uma porcentagem do dano que você causa, em Vida, de volta para você)"
+    }
+  ]
+}

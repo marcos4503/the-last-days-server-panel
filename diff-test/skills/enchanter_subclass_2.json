@@ -1,0 +1,133 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "2ef3ae9c-d10e-8519-2f8e-bd73986b2270",
+      "name": "Skill",
+      "amount": 200.0,
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "2ef3ae9c-d10e-8519-2f8e-bd73986b226f",
+      "name": "Skill",
+      "amount": 0.0001,
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:enchanter_subclass_2_crafting_1",
+    "skilltree:enchanter_subclass_2_life_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2a.png",
+  "id": "skilltree:enchanter_subclass_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 200.40228,
+  "positionY": -283.073,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Energia Máxima: +200"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia o 'Dispositivo Controlador de Gadgets' que permite controlar Gadgets invisíveis a olho nú, aos quais causam grandes estragos!"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- O 'Dispositivo Controlador de Gadgets' pode ser fabricado numa Bancada de Trabalho, assim como seus 'Chips de Comandos'."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- É possível instalar ou desinstalar 'Chips de Comandos', no seu Dispositivo, usando uma Mesa de Solda."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Os 'Chips de Comandos' instalados no seu Dispositivo permitem a ele executar novos 'Comandos', ou seja Habilidades."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Com o Dispositivo guardado em seu Slot específico, no seu Inventário, é possível segurar 'TAB' para escolher um 'Comando'."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Com um 'Comando' selecionado, basta pressionar 'ALT' para envia-lo aos Gadgets, que por sua vez o executarão."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- O envio de 'Comandos' consome Energia, que é exibida no HUD. A Energia é regenerada com o passar do tempo."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Cada 'Comando' também possui Tempo de Recarga e é possível desbloquear novos 'Comandos' progredindo na sua Árvore de Habilidades."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- O Dispositivo pode usar Chips de Comandos, providos por habilidades de qualquer Classe ou Subclasse da Árvore de Habilidades."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Subclasse é ideal para Sobreviventes que buscam causar uma boa quantidade de dano ao longo do tempo e muitas vezes, em área,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "através de Habilidades ativas ou que preferem invocar Robôs no campo de batalha, para que trabalhem pra você o ajudando nas lutas."
+    }
+  ]
+}

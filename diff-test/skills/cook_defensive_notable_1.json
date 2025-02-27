@@ -1,0 +1,76 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:food_effect",
+        "amplifier": 4,
+        "duration": 200,
+        "effect": "skilltree:life_regeneration_bonus"
+      },
+      "item_condition": {
+        "type": "skilltree:food"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:food_healing",
+        "amount": 1.0
+      },
+      "item_condition": {
+        "type": "skilltree:food"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [
+    "skilltree:cook_defensive_4",
+    "skilltree:cook_defensive_crafting_5",
+    "skilltree:cook_subclass_2_defensive_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/cook_crafting_notable_1.png",
+  "id": "skilltree:cook_defensive_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -79.97825,
+  "positionY": -230.5333,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Fabricação de Comida: Regeneração de Vida: +0.05 durante 10 Segundos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Fabricação de Comida: Restaura 1 de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Regeneração de Vida em Comida Fabricada regenera a Vida de quem consumiu tal comida, 2 vezes por segundo)"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Restauração de Vida em Comida Fabricada recupera uma quantia fixa de Vida de quem consumiu tal comida)"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.15,
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "7897ad5e-17c5-e526-7d7c-fa4ce02046f0",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:alchemist_lesser_3",
+    "skilltree:alchemist_lesser_6"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_lesser_1c.png",
+  "id": "skilltree:alchemist_lesser_5",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 0.0029907227,
+  "positionY": 349.52728,
+  "tags": [ ]
+}

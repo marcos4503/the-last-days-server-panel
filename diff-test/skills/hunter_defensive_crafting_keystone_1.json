@@ -1,0 +1,115 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 1.0,
+      "attribute": "skilltree:evasion",
+      "id": "00e3046b-1ace-2c7c-4e6b-ca3a33165652",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.75
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 1.5,
+      "attribute": "skilltree:evasion",
+      "id": "00e3046b-1ace-2c7c-4e6b-ca3a33165653",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.5
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 2.5,
+      "attribute": "skilltree:evasion",
+      "id": "00e3046b-1ace-2c7c-4e6b-ca3a33165654",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.25
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 3.0,
+      "attribute": "skilltree:evasion",
+      "id": "00e3046b-1ace-2c7c-4e6b-ca3a33165655",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.15
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/hunter_defensive_crafting_keystone_1.png",
+  "id": "skilltree:hunter_defensive_crafting_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 340.10645,
+  "positionY": 89.01318,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Evasão: +1 se Você tem no máximo 75% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Evasão: +1.5 se Você tem no máximo 50% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Evasão: +2.5 se Você tem no máximo 25% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Evasão: +3 se Você tem no máximo 15% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Evasão aumenta a chance de você Evadir de um ataque, negando completamente o Dano desse ataque)"
+    }
+  ]
+}

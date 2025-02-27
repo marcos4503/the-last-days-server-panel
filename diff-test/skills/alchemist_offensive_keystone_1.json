@@ -1,0 +1,99 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0064,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3beb3",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/alchemist_offensive_keystone_1a.png",
+  "id": "skilltree:alchemist_offensive_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -53.99701,
+  "positionY": 383.52728,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a Habilidade 'Saraivada de Flechas - Lvl 6'. Te permite fabricar e portar o 'Chip de Comando' desta Habilidade!"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- A Saraivada de Flechas faz com que um enxame de Gadgets disaparem dezenas e dezenas de Flechas Holográficas a partir de"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  um bloco ou criatura alvo, causando dano em área numa forma de retângulo."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "Nota: Para usar essa Habilidade, é obrigatório que você use um Dispositivo. Eles só são desbloqueáveis através das"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       Classes 'Diagramador e Programador', 'Alquimista e Médico' ou das Subclasses 'Desenvolvedor de Armas Biológicas'"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       e 'Amante de Robôs'. Sem uma dessas Classes ou Subclasses desbloqueada, essa habilidade não poderá ser usada."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Para usar esta Habilidade, fabrique e instale o 'Chip de Comando' dela, no seu Dispositivo, usando uma 'Mesa de Solda'!)"
+    }
+  ]
+}

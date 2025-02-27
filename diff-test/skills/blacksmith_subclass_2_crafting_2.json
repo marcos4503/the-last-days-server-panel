@@ -1,0 +1,33 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 1.0,
+      "attribute": "skilltree:blocking",
+      "id": "5e8cde98-19e2-2550-9e3e-cff4c0b0bff1",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_2_crafting_3",
+    "skilltree:blacksmith_subclass_2_crafting_5"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_crafting_1a.png",
+  "id": "skilltree:blacksmith_subclass_2_crafting_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -399.8586,
+  "positionY": -45.011627,
+  "tags": [ ]
+}

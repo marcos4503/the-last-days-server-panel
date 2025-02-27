@@ -1,0 +1,44 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.01,
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "a8a43377-f702-bef1-4aeb-fab0d52ebad2",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:has_item_equipped",
+        "item_condition": {
+          "type": "skilltree:enchanted",
+          "item_condition": {
+            "type": "skilltree:equipment_type",
+            "equipment_type": "boots"
+          }
+        }
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "experience_source": "mobs",
+      "multiplier": 0.02
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:enchanter_crafting_2"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_crafting_1.png",
+  "id": "skilltree:enchanter_crafting_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 104.79101,
+  "positionY": -60.496647,
+  "tags": [ ]
+}

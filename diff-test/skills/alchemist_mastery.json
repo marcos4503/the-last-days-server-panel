@@ -1,0 +1,111 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0076,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3bebf",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/alchemist_masterya.png",
+  "id": "skilltree:alchemist_mastery",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 0.0029907227,
+  "positionY": 409.52728,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a Habilidade 'Asas de Anjo - Lvl 5'. Te permite fabricar e portar o 'Chip de Comando' desta Habilidade!"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Asas de Anjo comanda os Gadgets a criarem uma Asa Holográfica que funciona de maneira idêntica a Élitros. Ao ativar"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  este Comando, você terá acesso a essa Asa por um tempo limitado. Para aciona-la basta pressionar 'ESPAÇO' uma vez,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  enquanto está caindo. A planagem funciona de maneira igual a planagem da Élitros, e para propulsão, você pode utilizar"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  Fogos de Artifício ou um outro Comando que forneça propulsão."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "Nota: Para usar essa Habilidade, é obrigatório que você use um Dispositivo. Eles só são desbloqueáveis através das"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       Classes 'Diagramador e Programador', 'Alquimista e Médico' ou das Subclasses 'Desenvolvedor de Armas Biológicas'"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       e 'Amante de Robôs'. Sem uma dessas Classes ou Subclasses desbloqueada, essa habilidade não poderá ser usada."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Para usar esta Habilidade, fabrique e instale o 'Chip de Comando' dela, no seu Dispositivo, usando uma 'Mesa de Solda'!)"
+    }
+  ]
+}

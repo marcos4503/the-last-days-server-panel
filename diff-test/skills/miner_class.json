@@ -1,0 +1,402 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "multiplier": 0.3,
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "experience_source": "ore",
+      "multiplier": 0.5
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "37ec5d1c-de45-b2af-9718-00bfd8ea3b8e",
+      "name": "SkillBonus",
+      "amount": 1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "cold_sweat:heat_resistance",
+      "id": "37ec5d1c-de45-b2af-9718-00bfd8ea3b90",
+      "name": "SkillBonus",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "cold_sweat:cold_resistance",
+      "id": "37ec5d1c-de45-b2af-9718-00bfd8ea3b91",
+      "name": "SkillBonus",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "cold_sweat:heat_dampening",
+      "id": "37ec5d1c-de45-b2af-9718-00bfd8ea3b0a",
+      "name": "SkillBonus",
+      "amount": 0.3,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "cold_sweat:cold_dampening",
+      "id": "37ec5d1c-de45-b2af-9718-00bfd8ea3b0b",
+      "name": "SkillBonus",
+      "amount": 0.3,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00085,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3bec9",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00084,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3beca",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00083,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3becb",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00082,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3becc",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00081,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3becd",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0008,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3bece",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "2f061f34-9676-4ed1-247f-05775639da09",
+      "name": "Skill",
+      "amount": 0.083,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "skilltree:blocking",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/miner_classa.png",
+  "id": "skilltree:miner_class",
+  "isStartingPoint": true,
+  "longConnections": [ ],
+  "oneWayConnections": [
+    "skilltree:miner_defensive_1",
+    "skilltree:miner_offensive_1",
+    "skilltree:miner_defensive_crafting_1",
+    "skilltree:miner_offensive_crafting_1",
+    "skilltree:miner_crafting_1"
+  ],
+  "positionX": -131.63829,
+  "positionY": 75.99579,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Velocidade de Quebra de Blocos: +30%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Experiência de Minérios: +50%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Velocidade: O DOBRO se Você é/está embaixo da água"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a habilidade de 'Viajante Experiente' que faz com que você sofra os efeitos mais críticos de Calor e Frio extremos,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "mais lentamente. Além disso, a sua temperatura corporal demora mais tempo para subir ou descer para pontos críticos."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia o 'Gancho de Luta' edição de Explorador! O Gancho de Luta é um Gancho amarrado numa corda, que está ligada a um"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "motor, permitindo que você atire o Gancho em qualquer lugar e então seja puxado até aquele lugar, assim como os Ganchos de"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "espiões de filmes. Com o Gancho de Luta você até pode bancar o Homem-Aranha se balançando na teia. O Gancho de Luta também"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "te permite puxar Criaturas até você e também pode ser uma boa fuga de emergência ou meio de alcançar coisas no alto, como"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "minérios em tetos de cavernas. Após fabricar seu Gancho de Luta, não se esqueça de passar o Cursor sobre ele, enquanto"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "segura 'SHIFT' para instruções mais detalhadas de como usa-lo."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- O 'Gancho de Luta' pode ser fabricado numa Bancada de Trabalho, usando simplesmente uma 'Espada de Pedra' e 'Rolo de Corda'."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a 'Multi-Ferramenta'. A Multi-Ferramenta nada mais é do que uma Picareta, Machado, Pá e Enxada, todos em uma única"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "e útil ferramenta, que te permite quebrar qualquer bloco da mesma maneira que quebraria se estivesse usando a ferramenta normal,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "mais adequada. A Multi-Ferramenta te permite economizar espaço de inventário, além de ser mais uma facilidade da vida de Explorador,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "além disso, a Multi-Ferramenta possui 6x mais durabilidade do que uma ferramenta normal, de mesmo tier."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- A 'Multi-Ferramenta' pode ser fabricada numa Bancada de Trabalho, combinando uma Picareta, Pá, Machado e Enxada de mesmo tier."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Classe é ideal para Sobreviventes que buscam uma mobilidade horizontal boa, mobilidade vertical alta, ferramentas de Exploração"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "e ferramentas de Mineração, em troca de uma menor resistência e Dano moderado. É a Classe perfeita se você gosta e leva a Exploração"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "a sério. Com esta Classe, você terá uma boa quantia de Dano, mas não será tanto Dano quanto Classes focadas em Dano."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Esta Classe NÃO consegue usar nenhuma variante dos seguintes Itens Vanilla:"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "- Escudo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "- Armadura de Diamante"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "- Armadura de Netherita"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Depois de escolher uma Classe inicial e salvar, não é possível mudar para outra. A única maneira de redefinir sua Árvore de"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Habilidades, é encontrando e usando o 'Pergaminho da Amnésia'."
+    }
+  ]
+}

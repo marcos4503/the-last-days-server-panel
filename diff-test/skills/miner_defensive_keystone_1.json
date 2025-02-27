@@ -1,0 +1,36 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.15,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/miner_defensive_keystone_1a.png",
+  "id": "skilltree:miner_defensive_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -305.15796,
+  "positionY": 238.51926,
+  "tags": [ ]
+}

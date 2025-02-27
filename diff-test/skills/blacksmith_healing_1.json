@@ -1,0 +1,77 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00375,
+      "attribute": "skilltree:regeneration",
+      "id": "421abd2d-a77a-508f-0149-f93f2c5fae5b",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "attribute": "minecraft:generic.max_health",
+        "max": 27.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.005,
+      "attribute": "skilltree:regeneration",
+      "id": "421abd2d-a77a-508f-0149-f93f2c5fae5c",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "attribute": "minecraft:generic.max_health",
+        "min": 28.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_healing_3"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_healing_1.png",
+  "id": "skilltree:blacksmith_healing_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -183.631,
+  "positionY": -18.008415,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Regeneração de Vida: +0.00375 se Você tiver no máximo 27 de Vida máxima"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Regeneração de Vida: +0.005 se Você tiver no mínimo 28 de Vida máxima"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Regeneração de Vida regenera seus Pontos de Vida passivamente, 2 vezes por segundo)"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 1.0,
+      "attribute": "skilltree:evasion",
+      "id": "4c5218ed-0d74-4de7-cebc-2b2c90fac1a1",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:enchanter_subclass_2_defensive_2",
+    "skilltree:enchanter_gateway",
+    "skilltree:cook_subclass_1_defensive_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_defensive_1.png",
+  "id": "skilltree:enchanter_subclass_2_defensive_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 133.68466,
+  "positionY": -199.5264,
+  "tags": [ ]
+}

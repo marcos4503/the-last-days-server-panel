@@ -1,0 +1,43 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:arrow_retrieval",
+      "chance": 0.02
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:hunter_lesser_5"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_lesser_1.png",
+  "id": "skilltree:hunter_lesser_4",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 288.69278,
+  "positionY": 199.03079,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Chance de Recuperação de Flecha: +2%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Chance de Recuperação de Flecha aumenta a chance de uma criatura, quando abatida, largar de volta a Flecha que você acertou nela)"
+    }
+  ]
+}

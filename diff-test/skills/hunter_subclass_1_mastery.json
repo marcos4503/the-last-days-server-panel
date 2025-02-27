@@ -1,0 +1,363 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 1.0,
+      "effect": "imbleeding:bleed",
+      "duration": 1800,
+      "amplifier": 1,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "max": 0.5,
+          "type": "skilltree:health_percentage"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 1.0,
+      "effect": "alexsmobs:exsanguination",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "max": 0.2,
+          "type": "skilltree:health_percentage"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.9,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.8,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.7,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.6,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.5,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.4,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.3,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.2,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "max": 0.1,
+        "type": "skilltree:health_percentage"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [
+    "skilltree:hunter_subclass_1_offensive_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_masterya.png",
+  "id": "skilltree:hunter_subclass_1_mastery",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 319.92465,
+  "positionY": 349.80984,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Inflinge Sangramento Por 1 Minuto e 30 Segundos ao contato se Alvo tem no máximo 50% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Inflinge Sangramento Fatal Por 10 Segundos ao contato se Alvo tem no máximo 20% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 90% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 80% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 70% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 60% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 50% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 40% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 30% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 20% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +5% se Alvo tem no máximo 10% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(O efeito de Sangramento causa 1 de Dano Real a Criatura, a cada 5 segundos enquanto ele durar, mas, deixa o mínimo de 0.5 de Vida)"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(O efeito de Sangramento Fatal causa 1 de Dano Real a Criatura, a cada 1 segundo enquanto durar o efeito, ou até a morte da Criatura)"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(O Dano Real ignora Pontos de Armadura, Pontos de Resistência da Armadura e possíveis Diagramações de 'Proteção' na Armadura)"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(O Dano Corpo-a-Corpo aumenta o dano que você causa, somente enquanto usa uma Arma Corpo-a-Corpo)"
+    }
+  ]
+}
