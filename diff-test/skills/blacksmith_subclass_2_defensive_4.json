@@ -1,0 +1,32 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 2.0,
+      "attribute": "skilltree:blocking",
+      "id": "7a8f54d8-b54d-5349-4129-2b39108f1ce5",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_2"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_defensive_1.png",
+  "id": "skilltree:blacksmith_subclass_2_defensive_4",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -317.63098,
+  "positionY": -16.008415,
+  "tags": [ ]
+}

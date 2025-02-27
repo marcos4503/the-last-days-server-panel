@@ -1,0 +1,32 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.01,
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "70e04dc8-4450-8a1c-6f70-855a751224c0",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:miner_defensive_2"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_defensive_1a.png",
+  "id": "skilltree:miner_defensive_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -146.63995,
+  "positionY": 101.97559,
+  "tags": [ ]
+}

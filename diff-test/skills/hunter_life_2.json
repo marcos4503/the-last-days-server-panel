@@ -1,0 +1,53 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.05,
+      "attribute": "puffish_attributes:toughness_shred",
+      "id": "99f615fc-fee5-7c81-c8bf-578f791eded1",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:hunter_life_notable_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_life_1a.png",
+  "id": "skilltree:hunter_life_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 198.62946,
+  "positionY": 147.02505,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Penetração de Resistência da Armadura: +5%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Penetração de Resistência da Armadura faz o seu Dano ignorar uma porcentagem dos Pontos de Resistência da Armadura, do alvo)"
+    }
+  ]
+}

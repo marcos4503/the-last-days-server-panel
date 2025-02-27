@@ -1,0 +1,68 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.00031,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3beca",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_2_life_notable_1.png",
+  "id": "skilltree:hunter_subclass_2_life_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 428.8894,
+  "positionY": 128.72784,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a Diagramação 'Conservação I e II', instalável em Armas de Fogo."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- A Diagramação de Conservação faz com que a cada tiro, haja uma chance de que uma Bala da Arma de Fogo não seja gasta."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  No nível I, a Diagramação poupa em média 35% das Balas, já no nível II a Diagramação poupa em média 50% das Balas."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  O Diagrama pode ser fabricado numa Bancada de Trabalho e instalado em suas Armas de Fogo, usando uma Bigorna."
+    }
+  ]
+}

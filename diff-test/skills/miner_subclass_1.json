@@ -1,0 +1,65 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.5,
+      "attribute": "puffish_attributes:knockback",
+      "id": "37001a58-aad1-dae8-76f6-cbf02ededf47",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:miner_subclass_1_offensive_1",
+    "skilltree:miner_subclass_1_crafting_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1a.png",
+  "id": "skilltree:miner_subclass_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -345.35162,
+  "positionY": 31.994904,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Repulsão Corpo-a-Corpo: +50%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Subclasse é ideal para Sobreviventes que querem causar mais estrago e devastar o campo de batalha, arremessando seus"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "inimigos para longe a cada ataque básico Corpo-a-Corpo, ou seja, ataques usando armas comuns como Espadas, Machados, Lanças,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "etc. É a Subclasse ideal se você deseja ter mais controle de área e punir mais ainda os inimigos, em seus combates de perto."
+    }
+  ]
+}

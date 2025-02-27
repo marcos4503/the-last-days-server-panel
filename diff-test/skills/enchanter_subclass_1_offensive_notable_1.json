@@ -1,0 +1,51 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.15,
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "99f615fc-fee5-7c81-c8bf-578f791eded0",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_offensive_notable_1a.png",
+  "id": "skilltree:enchanter_subclass_1_offensive_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 428.90466,
+  "positionY": -128.70454,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Velocidade de Ataque: +15%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(A Velocidade de Ataque aumenta a cadência de golpes corpo-a-corpo e reduz o tempo de carga de Bestas e Arcos)"
+    }
+  ]
+}

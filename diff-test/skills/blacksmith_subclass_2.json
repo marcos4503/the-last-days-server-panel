@@ -1,0 +1,59 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health",
+      "id": "8bf4a399-8f06-2c71-b127-06dec9a26200",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_2_crafting_1",
+    "skilltree:blacksmith_subclass_2_life_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2a.png",
+  "id": "skilltree:blacksmith_subclass_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -345.34277,
+  "positionY": -32.010185,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Vida Máxima: +2"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Subclasse é ideal para Sobreviventes que querem ampliar suas capacidades de resistência, podendo atordoar seus inimigos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "com golpes, aguentar mais porrada e enfrentar melhor os alvos no mano a mano, cara a cara."
+    }
+  ]
+}

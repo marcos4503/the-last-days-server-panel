@@ -1,0 +1,60 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.0143,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:miner_defensive_crafting_4",
+    "skilltree:miner_healing_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_defensive_crafting_1a.png",
+  "id": "skilltree:miner_defensive_crafting_3",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -131.66136,
+  "positionY": 136.02911,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano Corpo-a-Corpo: +1.43%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(O Dano Corpo-a-Corpo aumenta o dano que você causa, somente enquanto usa uma Arma Corpo-a-Corpo)"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.0013,
+      "attribute": "puffish_attributes:resistance_shred",
+      "id": "088798a7-7306-ca0c-a528-856ccef3be75",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:enchanter_offensive_3"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_1a.png",
+  "id": "skilltree:enchanter_offensive_2",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 187.63829,
+  "positionY": -75.99579,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Nenhum Atributo alterado."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "Desbloqueia a Habilidade 'Dardo de Fogo - Lvl 3'. Te permite fabricar e portar o 'Chip de Comando' desta Habilidade!"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "- Dardo de Fogo é um pequeno projétil incendiário de baixo custo, que seus Gadgets podem enviar. Ele possui um dano"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  moderado, viaja distâncias extremas, é versátil e é um ótimo complemento para ataques básicos. Ele também é capaz"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5635925
+      },
+      "text": "  de incendiar criaturas mais fracas."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "Nota: Para usar essa Habilidade, é obrigatório que você use um Dispositivo. Eles só são desbloqueáveis através das"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       Classes 'Diagramador e Programador', 'Alquimista e Médico' ou das Subclasses 'Desenvolvedor de Armas Biológicas'"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 5636095
+      },
+      "text": "       e 'Amante de Robôs'. Sem uma dessas Classes ou Subclasses desbloqueada, essa habilidade não poderá ser usada."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "(Para usar esta Habilidade, fabrique e instale o 'Chip de Comando' dela, no seu Dispositivo, usando uma 'Mesa de Solda'!)"
+    }
+  ]
+}

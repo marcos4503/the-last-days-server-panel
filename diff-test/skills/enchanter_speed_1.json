@@ -1,0 +1,32 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.05,
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "4a225132-7527-9494-bf71-5e55564ef07c",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:enchanter_speed_notable_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_1.png",
+  "id": "skilltree:enchanter_speed_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 221.16061,
+  "positionY": -160.00528,
+  "tags": [ ]
+}

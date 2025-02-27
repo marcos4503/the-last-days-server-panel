@@ -1,0 +1,71 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "item_condition": {
+          "id": "alloy_tools:multitool_1",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "multiplier": 0.2
+    },
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "item_condition": {
+          "id": "alloy_tools:multitool_2",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "multiplier": 0.2
+    },
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "item_condition": {
+          "id": "alloy_tools:multitool_4",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "multiplier": 0.2
+    },
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "item_condition": {
+          "id": "alloy_tools:multitool_5",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "multiplier": 0.2
+    },
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "item_condition": {
+          "id": "alloy_tools:multitool_6",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "multiplier": 0.2
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/miner_offensive_keystone_1a.png",
+  "id": "skilltree:miner_offensive_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -359.152,
+  "positionY": 144.99197,
+  "tags": [ ]
+}

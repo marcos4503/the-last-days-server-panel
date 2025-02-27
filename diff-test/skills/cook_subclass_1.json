@@ -1,0 +1,153 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.03,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.75
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.5
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.07,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.25
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.15
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:cook_subclass_1_offensive_1",
+    "skilltree:cook_subclass_1_crafting_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/cook_subclass_1.png",
+  "id": "skilltree:cook_subclass_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 144.96991,
+  "positionY": -315.07144,
+  "tags": [ ],
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano: +3% se Você tem no máximo 75% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano: +5% se Você tem no máximo 50% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano: +7% se Você tem no máximo 25% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Dano: +10% se Você tem no máximo 15% de Vida"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Esta Subclasse é ideal para Sobreviventes que veem sua fúria interna aumentar, com base em quantos Pontos de Vida perderam."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Nesta Classe, quanto mais perto da morte você estiver, mais seus inimigos sofrerão, mais dano você irá causar, mais críticos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "irá causar, mais vida irá recuperar ao bater, e mais na merda seus inimigos ficarão."
+    }
+  ]
+}

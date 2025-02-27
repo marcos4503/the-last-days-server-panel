@@ -1,0 +1,30 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 150.0,
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "7897bd5e-17c5-e526-7d7c-fa4ce02045d4",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [ ],
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_crafting_keystone_1a.png",
+  "id": "skilltree:enchanter_offensive_crafting_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": 340.1179,
+  "positionY": -88.99341,
+  "tags": [ ]
+}

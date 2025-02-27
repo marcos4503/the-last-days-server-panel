@@ -1,0 +1,32 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "37ec5d1c-de45-b2af-9718-00bfd8ea3b92",
+      "name": "SkillBonus",
+      "amount": 0.167,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:miner_offensive_crafting_keystone_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_offensive_crafting_1b.png",
+  "id": "skilltree:miner_offensive_crafting_7",
+  "isStartingPoint": false,
+  "longConnections": [ ],
+  "oneWayConnections": [ ],
+  "positionX": -310.6725,
+  "positionY": 71.99435,
+  "tags": [ ]
+}
