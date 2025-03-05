@@ -1,0 +1,5 @@
+
+[KeepCuriosInventory]
+	#Items here will always drop.
+	curiosBlacklist = ["travelersbackpack:standard", "travelersbackpack:netherite", "travelersbackpack:diamond", "travelersbackpack:gold", "travelersbackpack:emerald", "travelersbackpack:iron", "travelersbackpack:lapis", "travelersbackpack:redstone", "travelersbackpack:coal", "travelersbackpack:quartz", "travelersbackpack:bookshelf", "travelersbackpack:sandstone", "travelersbackpack:snow", "travelersbackpack:pumpkin", "travelersbackpack:spider", "travelersbackpack:bee", "travelersbackpack:wolf", "travelersbackpack:fox"]
+
