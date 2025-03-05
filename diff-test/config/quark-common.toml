@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -28,7 +28,7 @@
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not generate the Quark Programmer Art resource pack
-	"Generate Programmer Art" = true
+	"Generate Programmer Art" = false
 
 	[general.chest_button_offsets]
 		"Player X" = 0
@@ -55,11 +55,11 @@
 	Chute = true
 	Crafter = true
 	"Dispensers Place Blocks" = true
-	"Ender Watcher" = true
+	"Ender Watcher" = false
 	"Feeding Trough" = true
-	Gravisand = true
+	Gravisand = false
 	"Iron Rod" = true
-	"Metal Buttons" = true
+	"Metal Buttons" = false
 	"Obsidian Plate" = true
 	"Pistons Move Tile Entities" = true
 	"Redstone Randomizer" = true
@@ -108,40 +108,40 @@
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 [building]
-	"Celebratory Lamps" = true
-	"Compressed Blocks" = true
-	"Duskbound Blocks" = true
+	"Celebratory Lamps" = false
+	"Compressed Blocks" = false
+	"Duskbound Blocks" = false
 	"Framed Glass" = true
 	"Glass Item Frame" = true
-	"Gold Bars" = true
-	Grate = true
+	"Gold Bars" = false
+	Grate = false
 	Hedges = true
 	"Hollow Logs" = true
 	"Industrial Palette" = true
 	"Japanese Palette" = true
-	"Leaf Carpet" = true
-	Midori = true
-	"More Brick Types" = true
+	"Leaf Carpet" = false
+	Midori = false
+	"More Brick Types" = false
 	"More Mud Blocks" = true
 	"More Potted Plants" = true
-	"Nether Brick Fence Gate" = true
-	"Rainbow Lamps" = true
-	"Raw Metal Bricks" = true
+	"Nether Brick Fence Gate" = false
+	"Rainbow Lamps" = false
+	"Raw Metal Bricks" = false
 	Rope = true
-	"Shear Vines" = true
+	"Shear Vines" = false
 	Shingles = true
-	"Soul Sandstone" = true
-	Stools = true
-	"Sturdy Stone" = true
-	Thatch = true
+	"Soul Sandstone" = false
+	Stools = false
+	"Sturdy Stone" = false
+	Thatch = false
 	"Variant Bookshelves" = true
 	"Variant Chests" = true
-	"Variant Furnaces" = true
+	"Variant Furnaces" = false
 	"Variant Ladders" = true
-	"Vertical Planks" = true
-	"Vertical Slabs" = true
+	"Vertical Planks" = false
+	"Vertical Slabs" = false
 	"Wooden Posts" = true
-	"More Stone Variants" = true
+	"More Stone Variants" = false
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -284,11 +284,11 @@
 [management]
 	"Automatic Tool Restock" = true
 	"Easy Transfering" = true
-	"Expanded Item Interactions" = true
+	"Expanded Item Interactions" = false
 	"Hotbar Changer" = true
 	"Inventory Sorting" = true
-	"Item Sharing" = true
-	"Quick Armor Swapping" = true
+	"Item Sharing" = false
+	"Quick Armor Swapping" = false
 
 	[management.automatic_tool_restock]
 		#Enchantments deemed important enough to have special priority when finding a replacement
@@ -335,19 +335,19 @@
 		"Swap Off Hand" = true
 
 [tools]
-	Abacus = true
-	"Ambient Discs" = true
-	"Ancient Tomes" = true
-	"Beacon Redirection" = true
-	"Bottled Cloud" = true
-	"Color Runes" = true
-	"Endermosh Music Disc" = true
+	Abacus = false
+	"Ambient Discs" = false
+	"Ancient Tomes" = false
+	"Beacon Redirection" = false
+	"Bottled Cloud" = false
+	"Color Runes" = false
+	"Endermosh Music Disc" = false
 	"Parrot Eggs" = true
-	"Pathfinder Maps" = true
-	Pickarang = true
-	"Seed Pouch" = true
-	"Skull Pikes" = true
-	"Slime In A Bucket" = true
+	"Pathfinder Maps" = false
+	Pickarang = false
+	"Seed Pouch" = false
+	"Skull Pikes" = false
+	"Slime In A Bucket" = false
 	"Torch Arrow" = true
 	Trowel = true
 
@@ -508,47 +508,47 @@
 		"Trowel Max Durability" = 0
 
 [tweaks]
-	"Armed Armor Stands" = true
+	"Armed Armor Stands" = false
 	"Automatic Recipe Unlock" = true
-	"Better Elytra Rocket" = true
-	"Campfires Boost Elytra" = true
-	"Compasses Work Everywhere" = true
+	"Better Elytra Rocket" = false
+	"Campfires Boost Elytra" = false
+	"Compasses Work Everywhere" = false
 	"Coral On Cactus" = true
-	"Diamond Repair" = true
+	"Diamond Repair" = false
 	"Double Door Opening" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Dyeable Item Frames" = true
 	Emotes = true
-	"Enhanced Ladders" = true
-	"Glass Shard" = true
-	"Gold Tools Have Fortune" = true
-	"Grab Chickens" = true
+	"Enhanced Ladders" = false
+	"Glass Shard" = false
+	"Gold Tools Have Fortune" = false
+	"Grab Chickens" = false
 	"Hoe Harvesting" = true
 	"Horses Swim" = true
-	"Improved Sponges" = true
+	"Improved Sponges" = false
 	"Lock Rotation" = true
-	"Magma Keeps Concrete Powder" = true
-	"Map Washing" = true
+	"Magma Keeps Concrete Powder" = false
+	"Map Washing" = false
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
-	"No Durability On Cosmetics" = true
-	"Pat The Dogs" = true
+	"No Durability On Cosmetics" = false
+	"Pat The Dogs" = false
 	"Petals On Water" = true
-	"Pig Litters" = true
+	"Pig Litters" = false
 	"Poison Potato Usage" = true
-	"Reacharound Placing" = true
-	"Renewable Spore Blossoms" = true
-	"Replace Scaffolding" = true
+	"Reacharound Placing" = false
+	"Renewable Spore Blossoms" = false
+	"Replace Scaffolding" = false
 	"Safer Creatures" = true
-	"Shulker Packing" = true
+	"Shulker Packing" = false
 	"Simple Harvest" = true
 	"Slabs To Blocks" = true
-	"Slimes To Magma Cubes" = true
-	"Snow Golem Player Heads" = true
-	"Utility Recipes" = true
+	"Slimes To Magma Cubes" = false
+	"Snow Golem Player Heads" = false
+	"Utility Recipes" = false
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
-	"Zombie Villagers On Normal" = true
+	"Zombie Villagers On Normal" = false
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -600,7 +600,7 @@
 		#DO NOT ship enabled this in a modpack, please.
 		"Custom Emote Debug" = false
 		"Button Shift X" = 0
-		"Button Shift Y" = 0
+		"Button Shift Y" = -20
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -754,21 +754,21 @@
 		"Smelt Raw Ore Blocks" = true
 
 [world]
-	"Ancient Wood" = true
-	"Azalea Wood" = true
-	"Big Stone Clusters" = true
-	"Blossom Trees" = true
-	"Chorus Vegetation" = true
-	Corundum = true
-	"Fairy Rings" = true
+	"Ancient Wood" = false
+	"Azalea Wood" = false
+	"Big Stone Clusters" = false
+	"Blossom Trees" = false
+	"Chorus Vegetation" = false
+	Corundum = false
+	"Fairy Rings" = false
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
-	"Monster Box" = true
-	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
-	"No More Lava Pockets" = true
-	Permafrost = true
-	"Spiral Spires" = true
+	"Monster Box" = false
+	"Nether Obsidian Spikes" = false
+	"New Stone Types" = false
+	"No More Lava Pockets" = false
+	Permafrost = false
+	"Spiral Spires" = false
 
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
@@ -1342,12 +1342,12 @@
 
 [mobs]
 	Crabs = true
-	Forgotten = true
-	Foxhound = true
-	Shiba = true
-	Stonelings = true
-	Toretoise = true
-	Wraith = true
+	Forgotten = false
+	Foxhound = false
+	Shiba = false
+	Stonelings = false
+	Toretoise = false
+	Wraith = false
 
 	[mobs.crabs]
 		"Enable Brewing" = true
@@ -1546,21 +1546,21 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
-	"Back Button Keybind" = true
+	"Auto Walk Keybind" = false
+	"Back Button Keybind" = false
 	"Buckets Show Inhabitants" = true
-	Camera = true
+	Camera = false
 	"Chest Searching" = true
-	"Elytra Indicator" = true
-	"Greener Grass" = true
+	"Elytra Indicator" = false
+	"Greener Grass" = false
 	"Improved Tooltips" = true
-	"Long Range Pick Block" = true
-	"Microcrafting Helper" = true
-	"Soul Candles" = true
-	"Usage Ticker" = true
-	"Uses For Curses" = true
+	"Long Range Pick Block" = false
+	"Microcrafting Helper" = false
+	"Soul Candles" = false
+	"Usage Ticker" = false
+	"Uses For Curses" = false
 	"Variant Animal Textures" = true
-	"Wool Shuts Up Minecarts" = true
+	"Wool Shuts Up Minecarts" = false
 
 	[client.auto_walk_keybind]
 		"Draw Hud" = true
