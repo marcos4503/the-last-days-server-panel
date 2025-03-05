@@ -1,0 +1,54 @@
+ATENÇÃO!
+O arquivo "spawn_RETIRED.json" é um arquivo "spawn.json" que foi aposentado, pois foi necessário a alteração das regras
+de alguns monstros que antes eram Spawnados pelo InControl. Agora esses mesmos monstros que eram Spawnados pelo InControl
+são Spawnados pelo próprio mecanismo Vanilla e gerenciados pelo mod "Spawn Balance Utility".
+Esta versão do arquivo foi aposentada em 13/01/2025.
+
+
+
+
+
+Tenha em mente que ao usar a keyword "damageset" para ajustar o dano de
+um mob, este dano será aumentado em aproximadamente 50% caso o jogo esteja
+na dificuldade "Difícil"!
+
+Todos os monstros que são spawnados durante noites ou no escuro, pelo InControl
+através do arquivo "spawner.json", possuem 3 blocos de regras, como este exemplo...
+{
+    "mob": "minecraft:spider",
+    "when": "onjoin",
+    "healthset": 15.0,
+    "damageset": 4.0,
+    "attackspeedmultiply": 1.0,
+    "armorset": 0.0,
+    "armortoughnessset": 0.5,
+    "followrangeset": 64,
+    "speedmultiply": 1.1,
+    "nbt": { "Attributes": [ { "Name": "generic.knockback_resistance", "Base": 0.16 } ] },
+    "potion": "minecraft:night_vision,20,0",
+    "angry": false,
+    "continue": ""
+},
+{
+    "mob": "minecraft:spider",
+    "when": "position",
+    "canspawnhere": false,
+    "minlight": "0",
+    "maxlight": "7",
+    "incontrol": true,
+    "result": "deny"
+},
+{
+    "mob": "minecraft:spider",
+    "when": "position",
+    "incontrol": false,
+    "result": "deny"
+}
+- O primeiro bloco balancea o monstro, ajustando seus status e outras coisas,
+  sempre que ele aparece no mundo.
+- O segundo bloco faz com que caso este monstro seja spawnado pelo InControl, através
+  do arquivo "spawner.json", ele respeite algumas regras, caso contrario, seu
+  Spawn é rejeitado.
+- O terceiro bloco faz com que o Spawn desse monstro seja rejeitado sempre que
+  for spawnado pelo sistema Vanilla de spawn de monstros a noite ou em locais
+  escuros.
