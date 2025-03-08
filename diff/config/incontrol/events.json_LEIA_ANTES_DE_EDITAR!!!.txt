@@ -1,2 +1,0 @@
-Este arquivo é principalmente usado para Spawnar outros Mobs quando determinados
-Mobs são eliminados por jogadores, ou por outros meios.
