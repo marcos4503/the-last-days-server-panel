@@ -1,0 +1,7 @@
+
+[general]
+	#List of items to force-allow placing in the belt. Takes precedence over blacklist.
+	whitelist = []
+	#List of items to disallow from placing in the belt. (whitelist takes precedence)
+	blacklist = ["travelersbackpack:standard", "travelersbackpack:netherite", "travelersbackpack:diamond", "travelersbackpack:gold", "travelersbackpack:emerald", "travelersbackpack:iron", "travelersbackpack:lapis", "travelersbackpack:redstone", "travelersbackpack:coal", "travelersbackpack:quartz", "travelersbackpack:bookshelf", "travelersbackpack:sandstone", "travelersbackpack:snow", "travelersbackpack:pumpkin", "travelersbackpack:spider", "travelersbackpack:bee", "travelersbackpack:wolf", "travelersbackpack:fox", "irons_spellbooks:iron_spell_book", "irons_spellbooks:copper_spell_book", "metalbundles:copper_bundle"]
+
