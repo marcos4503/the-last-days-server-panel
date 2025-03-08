@@ -1,0 +1,173 @@
+[
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "the_flesh_that_hates:flesh_human",
+            "player": true
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:flesh_human_head",
+            "mincount": 1,
+            "maxcount": 1,
+            "mindistance": 0,
+            "maxdistance": 0,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 1.0
+        }
+    },
+
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "the_flesh_that_hates:flesh_boomer",
+            "player": true
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:plaquecontaminator",
+            "mincount": 1,
+            "maxcount": 1,
+            "mindistance": 0,
+            "maxdistance": 0,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 1.0
+        }
+    },
+
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "the_flesh_that_hates:flesh_boomer",
+            "player": false
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:plaquecontaminator",
+            "mincount": 1,
+            "maxcount": 1,
+            "mindistance": 0,
+            "maxdistance": 0,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 1.0
+        }
+    },
+
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "the_flesh_that_hates:flesh_community",
+            "player": true
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:plaquecontaminator",
+            "mincount": 1,
+            "maxcount": 3,
+            "mindistance": 2,
+            "maxdistance": 5,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 1.0
+        }
+    },
+
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "the_flesh_that_hates:plaquecontaminator",
+            "player": true
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:flesh_servant",
+            "mincount": 1,
+            "maxcount": 1,
+            "mindistance": 0,
+            "maxdistance": 0,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 0.05
+        }
+    },
+
+
+
+
+
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "undead_revamp2:bomber",
+            "player": false
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:plaquecontaminator",
+            "mincount": 1,
+            "maxcount": 1,
+            "mindistance": 0,
+            "maxdistance": 0,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 0.25
+        }
+    },
+
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "undead_revamp2:sucker",
+            "player": true
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:plaquecontaminator",
+            "mincount": 1,
+            "maxcount": 1,
+            "mindistance": 0,
+            "maxdistance": 0,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 1.0
+        }
+    },
+
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "undead_revamp2:thesomnolence",
+            "player": true
+        },
+        "spawn": {
+            "mob": "the_flesh_that_hates:plaquecontaminator",
+            "mincount": 1,
+            "maxcount": 1,
+            "mindistance": 0,
+            "maxdistance": 0,
+            "attempts": 25,
+            "norestrictions": true
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "random": 1.0
+        }
+    }
+]

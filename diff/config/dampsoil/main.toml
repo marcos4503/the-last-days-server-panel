@@ -1,0 +1,64 @@
+
+[general]
+	#If enabled, crops will die on dry farmland.
+	cropsDie = true
+	#Determines the effective radius of a water block to moisturize nearby farmland. Can be set to 0 to completely stop water sources from moisturizing farmland. 4 is the vanilla Minecraft value.
+	#Range: 0 ~ 7
+	waterRange = 2
+	#Determines how moisturized farmland can get from nearby water sources. 0 means zero moisture, 7 means max moisture level.
+	#Range: 1 ~ 7
+	waterEffectiveness = 4
+	#Determines the chance for a crop to grow. A value of 4 would equal a 1/4 chance for the crop to grow when it is ticked.
+	#Range: 1 ~ 10
+	growthRate = 10
+	#If enabled, crop growth speed will be affected by the level of moisture in the soil. This ranges from no growth in dry farmland to normal growth speed in fully moisturized farmland.
+	moistureGrowthMul = true
+	#Determines the chance for bone meal to further grow a crop. A value of 4 would equal a 1/4 chance for using bone meal to work.
+	#Range: 1 ~ 10
+	boneMealEfficiency = 4
+	#Determines how fast farmland dries up with no water source/sprinkler nearby. A value of 0.05 equals a 5% for farmland to lose a bit of moisture when it is randomly ticked.
+	#Range: 0.01 ~ 1.0
+	farmlandDryingRate = 0.5
+	#Determines how long the sprinkler is active after having been activated (in seconds).
+	#Range: 0 ~ 30
+	sprinklerActivationTime = 10
+	#Determines the effective radius of the sprinkler for moisturizing nearby farmland.
+	#Range: 1 ~ 7
+	sprinklerRadius = 3
+	#Determines the effective radius of the netherite sprinkler for moisturizing nearby farmland.
+	#Range: 1 ~ 7
+	netheriteSprinklerRadius = 7
+	#If enabled, the sprinklers will interact with entities in the world in various ways (e.g. hurting water sensitive mobs and extinguishing burning mobs.)
+	mobInteractions = false
+	#If enabled, wet farmland can not be trampled into dirt by mobs or players.
+	disableTrampling = true
+	#If enabled, wet farmland will freeze in cold biomes.
+	freezeFarmland = false
+	#If enabled, wet farmland will dry out quickly if in direct sunlight and in a biome with a temperature equal or greater than 1.0. 
+	vaporiseMoisture = true
+	#If enabled, sprinklers will function normally in ultra warm dimensions (like the nether). If disabled, the sprinkler will only spew out some sad vapor instead.
+	canSprinkleInUltrawarm = false
+	#If enabled, farmland will always start out at max moisture when just tilled.
+	maxMoistureOnTill = true
+
+[animals]
+	#If enabled, baby animals can not be fed to grow faster
+	feedAnimalBabies = false
+	#The amount of time in ticks chickens will be put on cooldown before they can lay an egg again.
+	#Range: > 20
+	chickenEggCooldown = 28800
+	#The amount of time in ticks cows will be put on cooldown before they can be milked again.
+	#Range: > 0
+	cowMilkCooldown = 14400
+	#The amount of time in ticks mooshrooms will be put on cooldown before they can grant mushroom stew again.
+	#Range: > 0
+	mooshroomStewCooldown = 200
+
+[compat]
+	#Whether sprinklers need to be hooked up with fluid pipes to function.
+	requirePiping = true
+	#If Serene Seasons is installed and this option is enabled, farmland will freeze when it is winter season.
+	sereneSeasonsCompat = false
+	#If Tough As Nails is installed and this option is enabled, players can cool down when standing close to an active sprinkler.
+	sprinklerCoolsPlayer = false
+
