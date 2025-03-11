@@ -162,7 +162,8 @@ var spellSystemItems as IItemStack[] = [
     <item:alloy_tools:multitool_6>.withoutTag(),
     <item:grapplemod:grapplinghook>.withTag({exclusivefor: "explorer_class", custom: {smartmotor: 1, detachonkeyrelease: 0, rocket_force: 1.0, doublehook: 0, angle: 20.05181347150259, playermovementmult: 1.9818652849740934, motorwhennotcrouching: 1, throwspeed: 11.968911917098445, motordampener: 0, sticky: 1, rocket_vertical_angle: 0.0, attractradius: 1.0103626943005182, repelforce: 1.0233160621761659, reelin: 0, phaserope: 0, attract: 0, motoracceleration: 0.37823834196891193, hookgravity: 0.2590673575129534, verticalthrowangle: 0.0, crc32: 1022723780, maxlen: 30.05181347150259, motormaxspeed: 0.5958549222797928, repel: 1, sneakingangle: 0.0, motorwhencrouching: 0, pullbackwards: 1, smartdoublemotor: 1, sneakingverticalthrowangle: 0.0, rocket_refuel_ratio: 15.0, rocket_active_time: 0.5, oneropepull: 0, enderstaff: 0, motor: 1, rocket: 0}}),
     <item:metalbundles:copper_bundle>.withoutTag(),
-    <item:securitycraft:taser>.withoutTag()
+    <item:securitycraft:taser>.withoutTag(),
+    <item:chromaticarsenal:vital_stone>.withoutTag()
 ];
 
 //Prepare a list with a internal ID (valid for this script only) of all items that should be unlocked in Passive Skill Tree, to be used or ported in inventory...
@@ -275,7 +276,8 @@ var spellSystemItemsIds as double[] = [
     0.00084,
     0.00085,
     0.0009,
-    0.00091
+    0.00091,
+    0.00092
 ];
 
 //Prepare a list with items that is prohibited to stay on offhand, for prevent abuse of skills that give bonus for items in hand (like bonus damage for Bow in hand, and a player put Bow in offhand and still gaining the bonus)

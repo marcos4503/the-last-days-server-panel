@@ -28,7 +28,7 @@ craftingTable.addShaped("spell_support_controller0", <item:irons_spellbooks:copp
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]
 ]);
 craftingTable.addShaped("spell_empty_command_chip0", <item:irons_spellbooks:blank_rune> * 1, [
-    [<item:minecraft:iron_nugget>, <item:minecraft:gold_ingot>, <item:minecraft:iron_nugget>],
+    [<item:minecraft:iron_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:iron_nugget>],
     [<item:minecraft:iron_nugget>, <item:prettypipes:blank_module>, <item:minecraft:iron_nugget>],
     [<item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>]
 ]);
@@ -361,13 +361,13 @@ craftingTable.addShaped("boomerang_weapon0", <item:brass_armory:iron_boomerang> 
     [<item:farmersdelight:iron_knife>.withoutTag(), <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
-craftingTable.addShapeless("boomerang_weapon0_loyalty", <item:brass_armory:iron_boomerang>.withTag({RepairCost: 1, Enchantments: [{id: "minecraft:loyalty", lvl: 1}]}) * 1, [<item:brass_armory:iron_boomerang>, <item:minecraft:diamond>, <item:morered:redwire_spool>]);
+craftingTable.addShapeless("boomerang_weapon0_loyalty", <item:brass_armory:iron_boomerang>.withTag({RepairCost: 3, Enchantments: [{id: "minecraft:loyalty", lvl: 1}, {id: "minecraft:unbreaking", lvl: 3}]}) * 1, [<item:brass_armory:iron_boomerang>, <item:minecraft:diamond>, <item:morered:redwire_spool>]);
 craftingTable.addShaped("spear_weapon0", <item:brass_armory:iron_spear> * 1, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:farmersdelight:iron_knife>.withoutTag()],
     [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
     [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
-craftingTable.addShapeless("spear_weapon0_loyalty", <item:brass_armory:iron_spear>.withTag({RepairCost: 1, Enchantments: [{id: "minecraft:loyalty", lvl: 1}]}) * 1, [<item:brass_armory:iron_spear>, <item:minecraft:diamond>, <item:morered:redwire_spool>]);
+craftingTable.addShapeless("spear_weapon0_loyalty", <item:brass_armory:iron_spear>.withTag({RepairCost: 3, Enchantments: [{id: "minecraft:loyalty", lvl: 1}, {id: "minecraft:unbreaking", lvl: 3}]}) * 1, [<item:brass_armory:iron_spear>, <item:minecraft:diamond>, <item:morered:redwire_spool>]);
 
 
 

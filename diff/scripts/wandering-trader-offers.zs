@@ -212,8 +212,8 @@ villagerTrades.addWanderingTrade(2, 40, <item:supplementaries:cage>.withTag({Blo
 villagerTrades.addWanderingTrade(2, 40, <item:chunkymcchunkface:chunk_loader> * 1, 99999, 72);
 villagerTrades.addWanderingTrade(2, 16, <item:spelunkers_charm:old_miners_bundle> * 1, 99999, 72);
 villagerTrades.addWanderingTrade(2, 80, <item:skilltree:amnesia_scroll> * 1, 99999, 72);
-villagerTrades.addWanderingTrade(2, <item:minecraft:emerald_block> * 40, <item:minecraft:bow>.withTag({RepairCost: 1, Enchantments: [{id: "minecraft:infinity", lvl: 1}]}) * 1, 99999, 72);
-villagerTrades.addWanderingTrade(2, <item:minecraft:emerald_block> * 40, <item:minecraft:crossbow>.withTag({RepairCost: 1, Enchantments: [{id: "minecraft:infinity", lvl: 1}]}) * 1, 99999, 72);
+villagerTrades.addWanderingTrade(2, <item:minecraft:emerald_block> * 52, <item:minecraft:bow>.withTag({RepairCost: 1, Enchantments: [{id: "minecraft:infinity", lvl: 1}]}) * 1, 99999, 72);
+villagerTrades.addWanderingTrade(2, <item:minecraft:emerald_block> * 54, <item:minecraft:crossbow>.withTag({RepairCost: 1, Enchantments: [{id: "minecraft:infinity", lvl: 1}]}) * 1, 99999, 72);
 villagerTrades.addWanderingTrade(2, TreasureMapForEmeralds.create(4, <resource:minecraft:village>, "Mapa para o Vilarejo mais próximo", <constant:minecraft:world/map/decorationtype:mansion>, 1, 72));
 villagerTrades.addWanderingTrade(2, TreasureMapForEmeralds.create(4, <resource:minecraft:igloo>, "Mapa para o Iglu mais próximo", <constant:minecraft:world/map/decorationtype:mansion>, 1, 72));
 villagerTrades.addWanderingTrade(2, TreasureMapForEmeralds.create(4, <resource:minecraft:mineshaft>, "Mapa para a Mina Abandonada mais próxima", <constant:minecraft:world/map/decorationtype:mansion>, 1, 72));
@@ -261,7 +261,7 @@ villagerTrades.addWanderingTrade(1, <item:minecraft:coal> * 16, <item:minecraft:
 villagerTrades.addWanderingTrade(1, <item:minecraft:raw_gold> * 16, <item:minecraft:emerald> * 7, 99999, 16);
 villagerTrades.addWanderingTrade(1, <item:minecraft:lapis_block> * 32, <item:minecraft:emerald> * 4, 99999, 16);
 villagerTrades.addWanderingTrade(1, <item:minecraft:diamond> * 1, <item:minecraft:emerald> * 10, 99999, 16);
-villagerTrades.addWanderingTrade(1, <item:minecraft:amethyst_shard> * 16, <item:minecraft:emerald> * 6, 99999, 16);
+villagerTrades.addWanderingTrade(1, <item:minecraft:amethyst_shard> * 16, <item:minecraft:emerald> * 2, 99999, 16);
 villagerTrades.addWanderingTrade(1, <item:minecraft:netherite_ingot> * 1, <item:minecraft:emerald> * 26, 99999, 16);
 villagerTrades.addWanderingTrade(1, <item:doggytalents:training_treat> * 2, <item:minecraft:emerald> * 2, 99999, 16);
 villagerTrades.addWanderingTrade(1, <item:simplehats:hatbag_common> * 16, <item:minecraft:emerald> * 2, 99999, 16);

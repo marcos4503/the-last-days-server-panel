@@ -1188,12 +1188,12 @@ craftingTable.addShaped("fluid_pipe0", <item:ppfluids:fluid_pipe> * 4, [
     [<item:minecraft:iron_bars>, <tag:items:forge:glass>, <item:minecraft:iron_bars>],
     [<item:minecraft:air>, <item:minecraft:copper_ingot>, <item:minecraft:air>]
 ]);
-craftingTable.addShaped("blank_module0", <item:prettypipes:blank_module> * 1, [
+craftingTable.addShaped("blank_module0", <item:prettypipes:blank_module> * 8, [
     [<item:energizedpower:silicon>, <item:minecraft:redstone>, <item:energizedpower:silicon>],
     [<item:minecraft:stone_slab>, <item:minecraft:comparator>, <item:minecraft:stone_slab>],
     [<item:energizedpower:silicon>, <item:minecraft:redstone>, <item:energizedpower:silicon>]
 ]);
-craftingTable.addShaped("blank_module1", <item:prettypipes:redstone_module> * 1, [
+craftingTable.addShaped("blank_module1", <item:prettypipes:redstone_module> * 24, [
     [<item:minecraft:comparator>, <item:minecraft:redstone>, <item:minecraft:comparator>],
     [<item:morered:redwire_spool>, <item:prettypipes:blank_module>, <item:morered:redwire_spool>],
     [<item:minecraft:comparator>, <item:minecraft:redstone>, <item:minecraft:comparator>]
@@ -1472,6 +1472,7 @@ craftingTable.addShaped("crossed_rail0", <item:betterminecarts:crossed_rail> * 1
     [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>],
     [<item:minecraft:iron_ingot>, <item:minecraft:stick>, <item:minecraft:iron_ingot>]
 ]);
+craftingTable.addShapeless("biodiesel0", <item:betterminecarts:bio_diesel_fuel> * 1, [<item:minecraft:glass_bottle>, <item:minecraft:sugar_cane>, <item:minecraft:sugar_cane>]);
 
 
 
