@@ -43,7 +43,7 @@ displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:2
 biomeBlending:false
-trackedPlayers:true
+trackedPlayers:false
 multipleImagesExport:false
 nightExport:false
 highlightsExport:false

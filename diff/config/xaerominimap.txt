@@ -105,7 +105,7 @@ infoDisplayBackgroundOpacity:25
 caveModeToggleTimer:1000
 legibleCaveMaps:false
 biomeBlending:true
-displayTrackedPlayers:true
+displayTrackedPlayers:false
 dimensionScaledMaxWaypointDistance:true
 displayClaims:true
 displayCurrentClaim:true
