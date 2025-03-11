@@ -1,0 +1,31 @@
+NOTE: Use the "SBUEditor.exe" to edit the config files of Spawn Balance Utility!
+
+
+
+Some creatures in mod "The Flesh That Hates" have issues despawning. Not all creatures
+have this issue, but below is a list of the creatures, and details about each one.
+
+- the_flesh_that_hates:flesh_human              (It has no despawn problems)
+- the_flesh_that_hates:flesh_villager           (It has no despawn problems)
+- the_flesh_that_hates:flesh_pillager           (It has no despawn problems)
+- the_flesh_that_hates:flesh_vindicator         (It has no despawn problems)
+- the_flesh_that_hates:flesh_pig                (It has no despawn problems)
+- the_flesh_that_hates:flesh_cow                (It has no despawn problems)
+- the_flesh_that_hates:flesh_sheep              (It has no despawn problems)
+- the_flesh_that_hates:flesh_dog                (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:flesh_piece              (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:plaquecontaminator       (It has no despawn problems)
+- the_flesh_that_hates:plaquecreatureone        (It has no despawn problems)
+- the_flesh_that_hates:bruteplaquecreatureone   (It has no despawn problems)
+- the_flesh_that_hates:flesh_howler             (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:flesh_human_head         (Never despawn!)
+- the_flesh_that_hates:flesh_suffer             (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:flesh_boomer             (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:plaquecreaturetwo        (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:flesh_hunter_two         (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:flesh_hunter_three       (Never despawn!)
+- the_flesh_that_hates:plaquethreelegcreature   (Only despawns if the mob limit configured in the TFTH configuration file is reached. The despawn happens even if this mob Chunk is unloaded!)
+- the_flesh_that_hates:flesh_community          (Never despawn!)
+- the_flesh_that_hates:flesh_servant            (Never despawn!)
+
+Hostile creatures from Vanilla and other Mods do not have despawn issues.

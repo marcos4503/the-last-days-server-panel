@@ -1,0 +1,157 @@
+[
+    {
+        "mob": "minecraft:spider",
+        "amount": {
+            "minimum": 2,
+            "maximum": 5
+        },
+        "persecond": 0.34,
+        "attempts": 15,
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "validspawn": true,
+            "sturdy": true,
+            "inwater": false,
+            "inlava": false,
+            "inair": false,
+            "norestrictions": false,
+            "mindaycount": 0,
+            "minheight": -55,
+            "maxheight": 192,
+            "mindist": 28,
+            "maxdist": 128,
+            "maxlocal": 12
+        }
+    },
+    {
+        "mob": "minecraft:zombie",
+        "amount": {
+            "minimum": 2,
+            "maximum": 5
+        },
+        "persecond": 1.0,
+        "attempts": 20,
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "validspawn": true,
+            "sturdy": true,
+            "inwater": false,
+            "inlava": false,
+            "inair": false,
+            "norestrictions": false,
+            "mindaycount": 0,
+            "minheight": -55,
+            "maxheight": 192,
+            "mindist": 28,
+            "maxdist": 128,
+            "maxlocal": 62
+        }
+    },
+
+
+
+
+
+    {
+        "mob": [
+            "the_flesh_that_hates:flesh_human",
+            "the_flesh_that_hates:flesh_pillager",
+            "the_flesh_that_hates:flesh_vindicator",
+            "the_flesh_that_hates:plaquecreatureone",
+            "the_flesh_that_hates:bruteplaquecreatureone",
+
+            "the_flesh_that_hates:flesh_suffer",
+            "the_flesh_that_hates:flesh_boomer",
+            "the_flesh_that_hates:plaquecreaturetwo",
+            "the_flesh_that_hates:flesh_hunter_two",
+            "the_flesh_that_hates:plaquethreelegcreature"
+        ],
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "persecond": 0.05,
+        "attempts": 15,
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "validspawn": true,
+            "sturdy": true,
+            "inwater": false,
+            "inlava": false,
+            "inair": false,
+            "norestrictions": false,
+            "mindaycount": 0,
+            "minheight": -55,
+            "maxheight": 192,
+            "mindist": 28,
+            "maxdist": 128,
+            "maxlocal": 3
+        }
+    },
+
+
+
+
+
+    {
+        "mob": [
+            "zombie_more:crawler_zombie",
+            "zombie_more:tank_zombie",
+            "zombie_more:boomer_zombie",
+            "undead_revamp2:thespectre",
+            "undead_revamp2:bomber",
+            "undead_revamp2:thespitter",
+            "undead_revamp2:theheavy",
+            "undead_revamp2:thesmoker",
+            "undead_revamp2:thehunter",
+            "undead_revamp2:thebeartamer",
+            "undead_revamp2:therod",
+            "undead_revamp2:theswarmer"
+        ],
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        },
+        "persecond": 0.1,
+        "attempts": 15,
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "validspawn": true,
+            "sturdy": true,
+            "inwater": false,
+            "inlava": false,
+            "inair": false,
+            "norestrictions": false,
+            "mindaycount": 0,
+            "minheight": -55,
+            "maxheight": 192,
+            "mindist": 28,
+            "maxdist": 128,
+            "maxlocal": 10
+        }
+    },
+    {
+        "mob": [
+            "undead_revamp2:sucker"
+        ],
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        },
+        "persecond": 0.1,
+        "attempts": 20,
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": false,
+            "inlava": false,
+            "inair": true,
+            "norestrictions": false,
+            "mindaycount": 0,
+            "minheight": 0,
+            "maxheight": 192,
+            "mindist": 28,
+            "maxdist": 128,
+            "maxlocal": 6
+        }
+    }
+]

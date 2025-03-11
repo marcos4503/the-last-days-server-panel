@@ -1,0 +1,20 @@
+
+#Note: this config is only used if Serene Seasons is installed.
+#This config holds information about various animals and which season they can be bred in.
+[breeding_seasons]
+	#If set to true, animals will only be able to breed during their configured mating season(s).
+	enableBreedingSeasons = false
+
+	#Each entry here must contain the following:
+	#The registry name of the animal (meaning the name of the mod the animal is from, then the name of the animal), for instance "minecraft:cow".
+	#A valid list of season names that represent what seasons this animal can be bred in.
+	#
+	#Valid seasons are: EARLY_SPRING, MID_SPRING, LATE_SPRING, EARLY_SUMMER, MID_SUMMER, LATE_SUMMER, EARLY_AUTUMN, MID_AUTUMN, LATE_AUTUMN, EARLY_WINTER, MID_WINTER and LATE_WINTER
+	[breeding_seasons.breedingSeasons]
+		"minecraft:cow" = ["MID_SPRING", "LATE_SPRING", "EARLY_SUMMER", "MID_SUMMER", "LATE_SUMMER", "EARLY_AUTUMN", "MID_AUTUMN", "LATE_AUTUMN"]
+		"minecraft:pig" = ["LATE_SPRING", "EARLY_SUMMER", "MID_SUMMER", "LATE_SUMMER"]
+		"minecraft:chicken" = ["EARLY_SPRING", "MID_SPRING", "LATE_SPRING", "EARLY_SUMMER", "MID_SUMMER"]
+		"minecraft:sheep" = ["EARLY_AUTUMN", "MID_AUTUMN", "LATE_AUTUMN"]
+		"minecraft:rabbit" = ["EARLY_SPRING", "MID_SPRING", "LATE_SPRING", "EARLY_SUMMER", "MID_SUMMER", "LATE_SUMMER", "EARLY_AUTUMN"]
+		"minecraft:horse" = ["MID_SPRING", "LATE_SPRING", "EARLY_SUMMER", "MID_SUMMER", "LATE_SUMMER"]
+
