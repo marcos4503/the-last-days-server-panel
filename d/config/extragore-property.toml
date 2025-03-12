@@ -1,0 +1,325 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "alexsmobs:skelewag"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch", "minecraft:bee", "alexsmobs:fly", "alexsmobs:centipede_head", "alexsmobs:cockroach", "alexsmobs:leafcutter_ant", "alexsmobs:tarantula_hawk", "alexsmobs:flutter", "alexsmobs:banana_slug", "crittersandcompanions:dragonfly", "crittersandcompanions:jumping_spider", "crittersandcompanions:leaf_insect", "blissful-butterflies:butterfly"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "alexsmobs:snow_leopard",
+    "alexsmobs:seal",
+    "irons_spellbooks:archevoker",
+    "alexsmobs:roadrunner",
+    "alexsmobs:laviathan",
+    "minecraft:trader_llama",
+    "irons_spellbooks:catacombs_zombie",
+    "irons_spellbooks:necromancer",
+    "alexsmobs:endergrade",
+    "minecraft:horse",
+    "undead_revamp2:thepregnant",
+    "minecraft:llama",
+    "alexsmobs:maned_wolf",
+    "the_flesh_that_hates:plaquethreelegcreature",
+    "alexsmobs:skreecher",
+    "minecraft:tadpole",
+    "minecraft:dolphin",
+    "alexsmobs:gelada_monkey",
+    "alexsmobs:hammerhead_shark",
+    "alexsmobs:dropbear",
+    "alexsmobs:tiger",
+    "alexsmobs:grizzly_bear",
+    "alexsmobs:murmur_head",
+    "undead_revamp2:slaveman",
+    "undead_revamp2:invisiclogger",
+    "undead_revamp2:invisiimmortal",
+    "alexsmobs:devils_hole_pupfish",
+    "the_flesh_that_hates:bruteplaquecreatureone",
+    "minecraft:illusioner",
+    "undead_revamp2:thebeartamer",
+    "minecraft:mooshroom",
+    "alexsmobs:bison",
+    "minecraft:drowned",
+    "minecraft:axolotl",
+    "irons_spellbooks:summoned_vex",
+    "alexsmobs:gorilla",
+    "the_flesh_that_hates:flesh_justice",
+    "alexsmobs:tusklin",
+    "quark:crab",
+    "the_flesh_that_hates:flesh_cocoon",
+    "alexsmobs:cosmic_cod",
+    "alexsmobs:underminer",
+    "undead_revamp2:thespectre",
+    "minecraft:wandering_trader",
+    "the_flesh_that_hates:flesh_hunter_two",
+    "the_flesh_that_hates:flesh_human_head",
+    "alexsmobs:kangaroo",
+    "the_flesh_that_hates:flesh_servant",
+    "duckling:quackling",
+    "undead_revamp2:propball_1",
+    "crittersandcompanions:sea_bunny",
+    "alexsmobs:hummingbird",
+    "undead_revamp2:therod",
+    "undead_revamp2:theheavy",
+    "undead_revamp2:theordure",
+    "crittersandcompanions:red_panda",
+    "alexsmobs:crow",
+    "doggytalents:dog",
+    "alexsmobs:guster",
+    "the_flesh_that_hates:plaqueincubatorstart",
+    "minecraft:pufferfish",
+    "minecraft:fox",
+    "fireflies:firefly_cluser",
+    "irons_spellbooks:magehunter_vindicator",
+    "undead_revamp2:clogger",
+    "simplyswords:simplybeeentity",
+    "alexsmobs:warped_toad",
+    "darkwaters:sight_hunter",
+    "minecraft:chicken",
+    "alexsmobs:giant_squid",
+    "minecraft:zombie",
+    "alexsmobs:emu",
+    "undead_revamp2:coppertar",
+    "minecraft:hoglin",
+    "alexsmobs:capuchin_monkey",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "minecraft:turtle",
+    "minecraft:sheep",
+    "quark:wraith",
+    "alexsmobs:rattlesnake",
+    "quark:foxhound",
+    "the_flesh_that_hates:flesh_vindicator",
+    "alexsmobs:bone_serpent_part",
+    "waddles:adelie_penguin",
+    "alexsmobs:raccoon",
+    "the_flesh_that_hates:flesh_sheep",
+    "minecraft:ravager",
+    "alexsmobs:bone_serpent",
+    "alexsmobs:potoo",
+    "irons_spellbooks:dead_king",
+    "quark:shiba",
+    "alexsmobs:straddler",
+    "zombie_more:tank_zombie",
+    "alexsmobs:sea_bear",
+    "undead_revamp2:thewolf",
+    "alexsmobs:mudskipper",
+    "alexsmobs:sugar_glider",
+    "supplementaries:red_merchant",
+    "undead_revamp2:thebidyupside",
+    "alexsmobs:crimson_mosquito",
+    "undead_revamp2:thebidy",
+    "alexsmobs:orca",
+    "undead_revamp2:the_moonflower",
+    "irons_spellbooks:priest",
+    "alexsmobs:jerboa",
+    "minecraft:bat",
+    "crittersandcompanions:otter",
+    "alexsmobs:cosmaw",
+    "the_flesh_that_hates:flesh_boomer",
+    "alexsmobs:comb_jelly",
+    "undead_revamp2:thehorrors",
+    "alexsmobs:skunk",
+    "alexsmobs:enderiophage",
+    "alexsmobs:sunbird",
+    "alexsmobs:tasmanian_devil",
+    "minecraft:cat",
+    "alexsmobs:stradpole",
+    "duckling:duck",
+    "minecraft:tropical_fish",
+    "darkwaters:mohast",
+    "the_flesh_that_hates:plaquecontaminator",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "alexsmobs:froststalker",
+    "minecraft:giant",
+    "the_flesh_that_hates:flesh_suffer",
+    "cave_dweller:cave_dweller",
+    "alexsmobs:lobster",
+    "alexsmobs:seagull",
+    "undead_revamp2:theskeeper",
+    "alexsmobs:moose",
+    "alexsmobs:shoebill",
+    "alexsmobs:farseer",
+    "alexsmobs:warped_mosco",
+    "minecraft:husk",
+    "the_flesh_that_hates:flesh_pig",
+    "undead_revamp2:axestrom",
+    "the_flesh_that_hates:flesh_cow",
+    "alexsmobs:komodo_dragon",
+    "minecraft:donkey",
+    "zombie_more:explosive_zombie",
+    "quark:stoneling",
+    "minecraft:piglin_brute",
+    "irons_spellbooks:summoned_polar_bear",
+    "alexsmobs:crocodile",
+    "quark:toretoise",
+    "irons_spellbooks:cultist",
+    "alexsmobs:triops",
+    "alexsmobs:rhinoceros",
+    "alexsmobs:frilled_shark",
+    "the_flesh_that_hates:flesh_howler",
+    "alexsmobs:bald_eagle",
+    "the_flesh_that_hates:flesh_dog",
+    "alexsmobs:blobfish",
+    "alexsmobs:mimicube",
+    "undead_revamp2:sucker",
+    "alexsmobs:void_worm",
+    "minecraft:parrot",
+    "irons_spellbooks:apothecarist",
+    "darkwaters:aberration",
+    "minecraft:frog",
+    "crittersandcompanions:shima_enaga",
+    "the_flesh_that_hates:flesh_piece",
+    "zombie_more:cursed_zombie",
+    "alexsmobs:mimic_octopus",
+    "alexsmobs:bunfungus",
+    "alexsmobs:void_worm_part",
+    "minecraft:mule",
+    "darkwaters:miraid",
+    "minecraft:vindicator",
+    "alexsmobs:flying_fish",
+    "minecraft:evoker",
+    "darkwaters:miraid_hallucination",
+    "the_flesh_that_hates:plaquecreatureone",
+    "quark:forgotten",
+    "undead_revamp2:thelurker",
+    "crittersandcompanions:ferret",
+    "alexsmobs:cachalot_whale",
+    "zombie_more:boomer_zombie",
+    "irons_spellbooks:debug_wizard",
+    "the_flesh_that_hates:plaquecreaturetwo",
+    "irons_spellbooks:spectral_steed",
+    "the_flesh_that_hates:plaquecreaturebaseone",
+    "spelunkers_charm:tremor_handler",
+    "undead_revamp2:thespitter",
+    "alexsmobs:terrapin",
+    "alexsmobs:anaconda",
+    "undead_revamp2:thesomnolence",
+    "irons_spellbooks:summoned_zombie",
+    "minecraft:pig",
+    "alexsmobs:alligator_snapping_turtle",
+    "minecraft:goat",
+    "cold_sweat:chameleon",
+    "minecraft:cod",
+    "undead_revamp2:theswarmer",
+    "alexsmobs:mantis_shrimp",
+    "undead_revamp2:theimmortal",
+    "alexsmobs:platypus",
+    "darkwaters:craeken",
+    "minecraft:cow",
+    "alexsmobs:rocky_roller",
+    "alexsmobs:soul_vulture",
+    "alexsmobs:blue_jay",
+    "alexsmobs:toucan",
+    "the_flesh_that_hates:flesh_human",
+    "the_flesh_that_hates:flesh_pillager",
+    "minecraft:salmon",
+    "crittersandcompanions:dumbo_octopus",
+    "undead_revamp2:bomber",
+    "undead_revamp2:smokesmitter",
+    "the_flesh_that_hates:flesh_hunter_three",
+    "alexsmobs:anteater",
+    "alexsmobs:rain_frog",
+    "minecraft:rabbit",
+    "minecraft:pillager",
+    "irons_spellbooks:pyromancer",
+    "alexsmobs:murmur",
+    "darkwaters:manaraw",
+    "minecraft:zoglin",
+    "the_flesh_that_hates:flesh_community",
+    "undead_revamp2:invisiblebidy",
+    "undead_revamp2:thehorrorsdecoys",
+    "irons_spellbooks:summoned_skeleton",
+    "alexsmobs:mungus",
+    "crittersandcompanions:koi_fish",
+    "alexsmobs:caiman",
+    "alexsmobs:spectre",
+    "irons_spellbooks:citadel_keeper",
+    "alexsmobs:catfish",
+    "irons_spellbooks:cryomancer",
+    "minecraft:piglin",
+    "undead_revamp2:thesmoker",
+    "spelunkers_charm:sound_entity",
+    "undead_revamp2:flame",
+    "alexsmobs:elephant",
+    "undead_revamp2:thegliter",
+    "alexsmobs:gazelle",
+    "minecraft:sniffer",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "zombie_more:crawler_zombie",
+    "the_flesh_that_hates:plaqueincubatorone",
+    "the_flesh_that_hates:flesh_villager",
+    "minecraft:ocelot",
+    "undead_revamp2:crackleball",
+    "minecraft:wolf",
+    "undead_revamp2:thehunter",
+    "undead_revamp2:deadclogger"
+]

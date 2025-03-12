@@ -1,0 +1,48 @@
+Os mods abaixo possuem um bug que quando os seus monstros morrem, dropam
+orbes de XP duplicados, por isso os valores de XP em "setxp" no arquivo
+"experience.json" para monstros DESTES mods precisam ser divididos por 2!
+
+Abaixo estão listados os mods que possuem esse bug, e os seus respectivos
+monstros com drop de XP bugados...
+
+- The Flesh That Hates (ID: the_flesh_that_hates)
+  - flesh_human
+  - flesh_pillager
+  - flesh_vindicator
+  - flesh_sheep
+  - flesh_dog
+  - flesh_piece
+  - plaquecreatureone
+  - bruteplaquecreatureone
+  - flesh_howler
+  - flesh_human_head
+  - flesh_suffer
+  - flesh_hunter_two
+  - flesh_hunter_three
+  - plaquethreelegcreature
+  - flesh_community
+  - flesh_servant
+
+- Zombies More (ID: zombie_more)
+  - crawler_zombie
+  - tank_zombie
+
+- The Undead Revamped (ID: undead_revamp2)
+  - thespectre
+  - bomber
+  - thespitter
+  - theheavy
+  - thesmoker
+  - sucker
+  - thehunter
+  - thebeartamer
+  - therod
+  - theswarmer
+
+- Dark Waters (ID: darkwaters)
+  - aberration
+  - manaraw
+  - mohast
+  - sight_hunter
+  - craeken
+  - miraid
